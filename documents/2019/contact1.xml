@@ -1,0 +1,9 @@
+  <contacts>
+    <address>
+      <street>1 rue de Paris</street>
+      <city><zip>69001</zip>Lyon</city>
+      <country>France</country>
+    </address>
+    <email>aurelien@tabard.fr<email>
+    <url>http://www.tabard.fr/</url>
+  </contact>

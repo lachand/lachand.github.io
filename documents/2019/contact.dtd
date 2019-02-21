@@ -1,0 +1,20 @@
+	<!ELEMENT contact (name,status,address,email+,url+,trips)>
+	<!ATTLIST name 
+		  id CDATA #REQUIRED>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT status (#PCDATA)>
+	<!ELEMENT address (street,city,zip,country)+>
+	<!ELEMENT street (#PCDATA)>
+	<!ELEMENT city (#PCDATA)>
+	<!ELEMENT zip (#PCDATA)>
+	<!ELEMENT country (#PCDATA)>
+
+	<!ELEMENT email (#PCDATA)>
+	<!ELEMENT url (#PCDATA)>
+
+	<!ELEMENT trips (trip*)>
+	<!ELEMENT trip (date,location,host)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT location (#PCDATA)>
+	<!ELEMENT host (#PCDATA)>
+

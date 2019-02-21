@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<contacts>
+	<contact>
+		<name>Jacques Chirac</name>
+		<address>
+			<street>1 rue de Paris</street>
+			<city><zip>69001</zip>Lyon</city>
+			<country>France</country>
+		</address>
+		<email>jacques@president.fr<email>
+		<url>http://www.chirac.fr/</url>
+	</contact>
+	<contact>
+		<name>
+		François Hollande
+		<status>
+		En exercice
+		</name>
+		</status>
+		<address>
+			<street>Elysée</street>
+			<city><zip>75002</zip>Paris</city>
+			<country>France</country>
+		</address>
+		<email>fhollande@president.fr<email>
+		<url>http://www.hollande.fr/</url>
+	</contact>
+</contacts>
