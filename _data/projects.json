@@ -1,0 +1,19 @@
+[
+	{
+		"name": "LikertScales",
+		"image": "likertscale.jpg",
+		"demo": "https://likert-scale.firebaseapp.com/",
+		"git" : "https://github.com/sical/LikertScales",
+		"date": "",
+		"tags": ["Visualisation","Generator"]
+	},
+	{
+		"name": "Toccata",
+		"image": "toccata.png",
+		"demo": "https://demo.toccata.education/#/login",
+		"git" : "https://github.com/lachand/Toccata",
+		"date": "",
+		"tags": ["Education","HCI","thesis"]
+	},
+
+]

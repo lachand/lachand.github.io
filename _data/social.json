@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "fa-linkedin",
+    "link": "https://www.linkedin.com/in/valentin-lachand-9520b4a8/"
+  },
+  {
+    "icon": "fa-twitter",
+    "link": "https://twitter.com/lachandv"
+  },
+  {
+    "icon": "ai-google-scholar",
+    "link": "https://scholar.google.fr/citations?user=m-WkuVgAAAAJ&hl=fr&oi=ao"
+  },
+  {
+    "icon": "ai-researchgate",
+    "link": "https://www.researchgate.net/profile/Valentin_Lachand"
+  },
+  {
+    "icon": "fa-envelope",
+    "link": "mailto:valentin.lachand@liris.cnrs.fr"
+  }
+]

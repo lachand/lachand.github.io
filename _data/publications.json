@@ -1,0 +1,43 @@
+[
+	{
+		"international": "True",
+		"authors": "Jalal, G., Lachand, V., Tabard, A., and Michel, C.",
+		"date": "September, 2018",
+		"title" : "How teachers prepare for the unexpected: bright spots and breakdowns in enacting pedagogical plans in class",
+		"conference": "13th European Conference on Technology Enhanced Learning ",
+		"pages": "",
+        "pdf": "",
+        "doi": ""
+	},
+	{
+		"international": "True",
+		"authors": "Lachand, V., Jalal, G., Tabard, A., and Michel, C.",
+		"date": "April 21 - 26, 2018",
+		"title" : "Toccata: an Activity Centric Orchestration System for Education",
+		"conference": "ACM CHI Conference on Human Factors in Computing Systems Extended Abstracts",
+		"pages": "LBW108",
+        "pdf": "https://hal.archives-ouvertes.fr/hal-01716466/document",
+        "doi": "http://dx.doi.org/10.1145/3170427.3188484"
+	},
+	{
+		"international": "True",
+		"authors": "Jalal, G., Lachand, V., Tabard, A., and Michel, C.",
+		"date": "April 21 - 26, 2018",
+		"title" : "Design, Adjust and Reuse – How Teachers Script Pedagogical Activities",
+		"conference": "ACM CHI Conference on Human Factors in Computing Systems Extended Abstracts",
+		"pages": "LBW521",
+        "pdf": "https://hal.archives-ouvertes.fr/hal-01716373/document",
+        "doi": "http://dx.doi.org/10.1145/3170427.3188483"
+},
+	{
+		"international": "False",
+		"authors": "Lachand, V., Serna, A., Tabard, A., and Marty, J. C.",
+		"date": "2016-10-25",
+		"title" : "De l’efficacité de visualisations indicielles ou symboliques pour la régulation d’activités collaboratives",
+		"conference": "Actes de la 28ième conférence francophone sur l’Interaction Homme-Machine",
+		"pages": "144-154",
+        "pdf": "https://hal.archives-ouvertes.fr/hal-01383911/document",
+        "doi": "http://dx.doi.org/10.1145/3004107.3004115"
+	},
+
+]
