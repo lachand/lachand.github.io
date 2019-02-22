@@ -3,8 +3,7 @@ layout: default
 title: Home
 permalink: /
 ---
-
-![Valentin Lachand photo](static/img/picture_lachand.jpg)
+<img class="my-picture" src="static/img/picture_lachand.jpg">
 
 # About me
 
