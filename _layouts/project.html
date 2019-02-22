@@ -12,8 +12,8 @@ layout: page
     <div class="project-item col-md-4 col-sm-6 col-xs-12" data-tags='{{ i.tags | jsonify | downcase }}'>
     	<div class="well project-outer">
     		<div class="project-inner">
-    			<div class="bordered">
-          <img class="project-img" src="https://raw.githubusercontent.com/lachand/lachand.github.io/master/static/projects/{{ i.image }}"></div>
+    			<div>
+          <img class="bordered project-img" src="https://raw.githubusercontent.com/lachand/lachand.github.io/master/static/projects/{{ i.image }}"></div>
                 {% if i.url %} <a href="{{ i.url }}"> {% endif %}
     			<h3 class="project-headlines">{{ i.name }}</h3>
     			{% if i.url %} </a> {% endif %}
