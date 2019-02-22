@@ -13,9 +13,7 @@ layout: page
     	<div class="well project-outer">
     		<div class="project-inner">
     			<div>
-          <img class="bordered project-img" src="https://raw.githubusercontent.com/lachand/lachand.github.io/master/static/projects/{{ i.image }}"></div>
-                {% if i.url %} <a href="{{ i.url }}"> {% endif %}
-    			<h3 class="project-headlines">{{ i.name }}</h3>
+          <h3 class="project-headlines">{{ i.name }}</h3>
     			{% if i.url %} </a> {% endif %}
     			<div class="project-content">
     				<div class="tag-holder">
@@ -38,6 +36,8 @@ layout: page
     				<a href="{{ i.demo }}" target="_blank" class="btn btn-info btn-raised btn-sm project-link">Live demo</a>
     				{% endif %}
     				<span class="project-timeline">{{ i.date }}</span>
+          <img class="bordered project-img" src="https://raw.githubusercontent.com/lachand/lachand.github.io/master/static/projects/{{ i.image }}"></div>
+                {% if i.url %} <a href="{{ i.url }}"> {% endif %}
     			</div>
     		</div>
     	</div>
