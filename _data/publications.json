@@ -16,6 +16,7 @@
 		"title" : "Toccata: an Activity Centric Orchestration System for Education",
 		"conference": "ACM CHI Conference on Human Factors in Computing Systems Extended Abstracts",
 		"pages": "LBW108",
+        "acm": "https://dl.acm.org/authorize?N678789",
         "pdf": "https://hal.archives-ouvertes.fr/hal-01716466/document",
         "doi": "http://dx.doi.org/10.1145/3170427.3188484"
 	},
@@ -26,6 +27,7 @@
 		"title" : "Design, Adjust and Reuse – How Teachers Script Pedagogical Activities",
 		"conference": "ACM CHI Conference on Human Factors in Computing Systems Extended Abstracts",
 		"pages": "LBW521",
+        "acm": "https://dl.acm.org/authorize?N678780",
         "pdf": "https://hal.archives-ouvertes.fr/hal-01716373/document",
         "doi": "http://dx.doi.org/10.1145/3170427.3188483"
 },
@@ -36,6 +38,7 @@
 		"title" : "De l’efficacité de visualisations indicielles ou symboliques pour la régulation d’activités collaboratives",
 		"conference": "Actes de la 28ième conférence francophone sur l’Interaction Homme-Machine",
 		"pages": "144-154",
+        "acm": "https://dl.acm.org/authorize?N678781",
         "pdf": "https://hal.archives-ouvertes.fr/hal-01383911/document",
         "doi": "http://dx.doi.org/10.1145/3004107.3004115"
 	},
