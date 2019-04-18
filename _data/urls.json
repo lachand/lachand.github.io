@@ -21,6 +21,11 @@
     "icon": "fa-leanpub"
   },
   {
+    "text": "Talks",
+    "url": "/talks",
+    "icon": "fa-bullhorn"
+  },
+  {
     "text": "CV",
     "url": "/English_CV_Valentin_Lachand.pdf",
     "icon": "fa-graduation-cap",
