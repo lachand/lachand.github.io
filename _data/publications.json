@@ -2,13 +2,13 @@
 	{
 		"international": "True",
 		"authors": "Jalal, G., Lachand, V., Tabard, A., and Michel, C.",
-		"date": "September, 2018",
+		"date": "September 03, 2018",
 		"title" : "How teachers prepare for the unexpected: bright spots and breakdowns in enacting pedagogical plans in class",
 		"conference": "13th European Conference on Technology Enhanced Learning ",
-		"pages": "",
+		"pages": "59-73",
         "acm": "",
-        "pdf": "",
-        "doi": ""
+        "pdf": "https://hal.archives-ouvertes.fr/hal-01833057/file/EC-TEL_2018_paper_33-2.pdf",
+        "doi": "http://dx.doi/10.1007/978-3-319-98572-5_5"
 	},
 	{
 		"international": "True",
@@ -35,7 +35,7 @@
 	{
 		"international": "False",
 		"authors": "Lachand, V., Serna, A., Tabard, A., and Marty, J. C.",
-		"date": "2016-10-25",
+		"date": "October 25, 2015",
 		"title" : "De l’efficacité de visualisations indicielles ou symboliques pour la régulation d’activités collaboratives",
 		"conference": "Actes de la 28ième conférence francophone sur l’Interaction Homme-Machine",
 		"pages": "144-154",
