@@ -12,7 +12,7 @@ We present Toccata, a system that facilitates the management of rich multi-devic
 ### Resources
 #### [UBICOMP 2019 Presentation [pdf]](https://docs.google.com/presentation/d/1qmoVolMyzQ7etLfP6kaOxNvE5CQo0t-7Wo5Hdu90m_M/export/pdf)
 <a href="https://docs.google.com/presentation/d/1qmoVolMyzQ7etLfP6kaOxNvE5CQo0t-7Wo5Hdu90m_M/export/pdf">
-  <img src="https://valentin.lachand.net/documents/2019/presentation_ubicomp_thumbnail.png" />
+  <img src="https://valentin.lachand.net/documents/2019/presentation_ubicomp_thumbnail.png" style="width:50%;"/>
  </a>
  
 #### [UBICOMP 2019 Paper [pdf]](https://hal.archives-ouvertes.fr/hal-02136481/document)
