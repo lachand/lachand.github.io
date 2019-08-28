@@ -17,6 +17,6 @@ We present Toccata, a system that facilitates the management of rich multi-devic
  
 #### [UBICOMP 2019 Paper [pdf]](https://hal.archives-ouvertes.fr/hal-02136481/document)
  <a href="https://hal.archives-ouvertes.fr/hal-02136481/document">
-  <img src="https://thumb.ccsd.cnrs.fr/8470302/medium" />
+  <img src="https://thumb.ccsd.cnrs.fr/8470302/large" />
  </a>
 
