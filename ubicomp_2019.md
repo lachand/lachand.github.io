@@ -15,5 +15,5 @@ We present Toccata, a system that facilitates the management of rich multi-devic
 
 ### [Presentation [pdf]](https://docs.google.com/presentation/d/1qmoVolMyzQ7etLfP6kaOxNvE5CQo0t-7Wo5Hdu90m_M/export/pdf)
 <a href="https://docs.google.com/presentation/d/1qmoVolMyzQ7etLfP6kaOxNvE5CQo0t-7Wo5Hdu90m_M/export/pdf">
-  <img src="https://valentin.lachand.net/documents/2019/presentation_ubicomp_thumbnail.png" style="width:50%;"/>
+  <img src="https://valentin.lachand.net/documents/2019/presentation_ubicomp_thumbnail.png"/>
  </a>
