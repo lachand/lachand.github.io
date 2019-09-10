@@ -6,7 +6,7 @@ permalink: /ubicomp_2019
 ### Live questions
 You can ask your question during my presentation at Ubicomp 2019 with the following link: [live questions](https://app.sli.do/event/jgwdfzb1)
 
-### [Demonstration](ubicomp.toccata.education)
+### Demonstration
 You can test Toccata at [ubicomp.toccata.education](ubicomp.toccata.education)
 Our demonstration work with Firefox and Chrome/Chromium. It was not tested with Edge or Internet Explorer. Unexpected behaviour may happen with Safari due to memory restriction on this browser.
 
