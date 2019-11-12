@@ -2,11 +2,11 @@
   {
 		"international": "True",
 		"authors": "Lachand, V., Michel, C., and Tabard, A.",
-		"date": "In press",
+		"date": "June, 2019",
 		"title" : "Toccata: Supporting Classroom Orchestration with Activity Based Computing ",
 		"conference": " Interactive, Mobile, Wearable and Ubiquitous Technologies",
-		"pages": "",
-        "acm": "",
+		"pages": "article 53, 23 pages",
+        "acm": "https://dl.acm.org/authorizestats?N696011",
         "pdf": "",
         "doi": "http://dx.doi/10.1145/3328924"
 	},
