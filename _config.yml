@@ -4,8 +4,8 @@
 permalink:           pretty
 
 # Setup
-title:               Valentin Lachand
-about:               PhD Student in computer science
+title:               Valentin Lachand-Pascal
+about:               PhD Student in computer science - Technology teacher in secondary school
 tagline:             ''
 description:         ''
 url:                 ''
@@ -14,7 +14,7 @@ paginate:            5
 
 # About/contact
 author:
-  name:              Valentin Lachand
+  name:              Valentin Lachand-Pascal
   url:               https://valentin.lachand.net
   email:             valentin@lachand.net
 
