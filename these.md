@@ -20,9 +20,9 @@ Enfin, nous avons cherché à identifier les stratégies d'interaction permettan
 
 Nous avons constaté que la sélection des dispositifs de partage de contenu restait particulièrement complexe en termes d'interaction. Nos résultats ouvrent de nouvelles pistes pour la gestion de dispositifs numériques en classe. Cependant, des travaux sont encore nécessaires quant au partage, à la réutilisation, et à la reconception d'activités numériques. 
 
-## Manuscript
+## Manuscrit
 
-Vous pouvez télécharger mon manuscript en (en français) [ici](https://valentin.lachand.net/documents/2020/Manuscrit_VL.pdf)
+Vous pouvez télécharger mon manuscrit en (en français) [ici](https://valentin.lachand.net/documents/2020/Manuscrit_VL.pdf)
 
 ## Soutenance
 
