@@ -6,6 +6,15 @@ permalink: /these
 
 # Thèse
 
+## Manuscrit
+
+Vous pouvez télécharger mon manuscrit en (en français) [ici](https://valentin.lachand.net/documents/2020/Manuscrit_VL.pdf)
+
+## Soutenance
+
+Voici l'enregistrement de ma soutenance de thèse :
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/485939814" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
 ## Résumé
 La quantité et la variété des dispositifs numériques disponibles dans les établissements scolaires ne cessent d'augmenter. Cependant, les usages pédagogiques n'ont pas suivi cette évolution. La faible utilisation du numérique peut s'expliquer par la difficulté à créer des activités pédagogiques numériques. 
 Nous proposons de combiner des concepts issus de travaux de recherche liés à la création et la conduite d'activités pédagogiques en classe, ainsi que des travaux liés à la conduite d'activités numériques d'une manière plus générale. 
@@ -19,12 +28,3 @@ Nous proposons une architecture adaptable afin de résoudre les problèmes techn
 Enfin, nous avons cherché à identifier les stratégies d'interaction permettant aux enseignants de gérer au mieux les dispositifs numériques en classe. Au moyen d'observations de classes de collège, nous avons identifié deux classes de tâches principales : le partage de contenu et le contrôle à distance des dispositifs. A l’aide d’une étude d'élicitation, nous avons trouvé que les les tâches de contrôle sont plus faciles à réaliser que celles de partage de contenus, notamment à l’aide de dispositif porté comme une montre connectée. 
 
 Nous avons constaté que la sélection des dispositifs de partage de contenu restait particulièrement complexe en termes d'interaction. Nos résultats ouvrent de nouvelles pistes pour la gestion de dispositifs numériques en classe. Cependant, des travaux sont encore nécessaires quant au partage, à la réutilisation, et à la reconception d'activités numériques. 
-
-## Manuscrit
-
-Vous pouvez télécharger mon manuscrit en (en français) [ici](https://valentin.lachand.net/documents/2020/Manuscrit_VL.pdf)
-
-## Soutenance
-
-Voici l'enregistrement de ma soutenance de thèse :
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/485939814" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
