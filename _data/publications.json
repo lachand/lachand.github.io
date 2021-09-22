@@ -1,5 +1,17 @@
 [
   {
+		"international": "False",
+    "thesis": "True",
+		"authors": "Lachand, V.",
+		"date": "November, 2020",
+		"title" : "Activity-centered approach for the design and orchestration of digital classroom activities",
+		"conference": "",
+		"pages": "230 pages",
+        "acm": "",
+        "pdf": "https://tel.archives-ouvertes.fr/tel-03125759/document",
+        "doi": ""
+	},
+  {
 		"international": "True",
 		"authors": "Lachand, V., Michel, C., and Tabard, A.",
 		"date": "June, 2019",
