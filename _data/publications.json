@@ -2,7 +2,7 @@
   {
 		"international": "False",
     "thesis": "True",
-		"authors": "Lachand, V.",
+		"authors": "Lachand-Pascal, V.",
 		"date": "November, 2020",
 		"title" : "Activity-centered approach for the design and orchestration of digital classroom activities",
 		"conference": "",
@@ -11,6 +11,18 @@
         "pdf": "https://tel.archives-ouvertes.fr/tel-03125759/document",
         "doi": ""
 	},
+  {
+    "international": "True",
+    "thesis": "False",
+    "authors": "Lachand-Pascal, V., Michel, C., Serna, A., Tabard, A.",
+    "date": "February, 2022",
+    "title" : "Challenges and Opportunities for Multi-Device Management in Classrooms",
+    "conference": "ACM Transactions on Computer-Human Interaction",
+    "pages": "26 pages",
+    "acm": "",
+    "pdf": "https://dl.acm.org/doi/pdf/10.1145/3519025",
+    "doi": "https://doi.org/10.1145/3519025"
+  },
   {
 		"international": "True",
 		"authors": "Lachand, V., Michel, C., and Tabard, A.",
@@ -65,6 +77,6 @@
         "acm": "https://dl.acm.org/authorize?N678781",
         "pdf": "https://hal.archives-ouvertes.fr/hal-01383911/document",
         "doi": "http://dx.doi.org/10.1145/3004107.3004115"
-	},
+	}
 
 ]
