@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CCI UML 2018 - TP2
-permalink: /teaching/2018/cci-uml-2018/cci-uml-2018-tp2
+permalink: /teaching/archives/2018/cci-uml-2018/cci-uml-2018-tp2
 ---
 
 # TP 2 UML - Diagrammes dynamiques

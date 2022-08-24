@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CCI UML 2018 - TP1
-permalink: /teaching/2018/cci-uml-2018/cci-uml-2018-tp1
+permalink: /teaching/archives/2018/cci-uml-2018/cci-uml-2018-tp1
 ---
 
 # TP 1 UML - Diagrammes Statiques

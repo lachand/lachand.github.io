@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CCI XML et Web 2019
-permalink: /teaching/2019/cci-xml-web-2019-tp3
+permalink: /teaching/archives/2019/cci-xml-web-2019-tp3
 ---
 
 # Rendez dynamique votre CV
@@ -72,9 +72,9 @@ Votre code doit maintenant ressembler au code suivant :
 ```javascript
 function myScroll() { // Définition de la fonction de scroll
     var progress = document.getElementById('progress_bar').value; // Valeur de la barre de progression
-    
+
     // Calculez ici la valeur de déplacement à efectuer lors du scroll
-    
+
     window.scroll(0, value) // Déplacement de la page de 0 px latéralement et 'value' px horizontalement
 }
 ```

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CCI XML et Web 2019
-permalink: /teaching/2019/cci-xml-web-2019-tp2
+permalink: /teaching/archives/2019/cci-xml-web-2019-tp2
 ---
 
 # Exercice 1 : HTML Basique
@@ -59,7 +59,7 @@ Intégrer material design pour vous aider dans la mise en page du site. Voici un
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <!-- Include material design icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!-- include stylesheet from material design -->
@@ -67,7 +67,7 @@ Intégrer material design pour vous aider dans la mise en page du site. Voici un
     <!-- include javascript needed for material design -->
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   </head>
-  
+
   <body>
     <h1>Hello, world!</h1>
   </body>

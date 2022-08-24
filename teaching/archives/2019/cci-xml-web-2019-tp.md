@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CCI XML et Web 2019
-permalink: /teaching/2019/cci-xml-web-2019-tp
+permalink: /teaching/archives/2019/cci-xml-web-2019-tp
 ---
 
 # Exercice 1 : XML bien formé
