@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Toccata: Supporting Classroom Orchestration with Activity Based Computing"
 permalink: /presentations/2019/ubicomp_2019
 ---
