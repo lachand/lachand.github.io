@@ -24,7 +24,7 @@ En cas de problème avec Linux, télécharger le fichier [jfxrt.jar](https://val
 
 # Travail demandé
 
-L'archive [jfxrt.jar](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022/tp1.zip) contient les classes de base :
+L'archive [TP1.zip](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022/tp1.zip) contient les classes de base :
 
 - App : la classe principale, qui gère la création de l'application
 - Field : une classe gérant le terrain de jeu
