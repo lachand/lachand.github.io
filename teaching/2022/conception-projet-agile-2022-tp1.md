@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Conception agile de projets informatiques et génie logiciel : TP1 Remise en route Java
-permalink: /teaching/2022/conception-projet-agile-2022/tp-1
+permalink: /teaching/2022/conception-projet-agile-2022-tp-1
 ---
 
 # Objectif
