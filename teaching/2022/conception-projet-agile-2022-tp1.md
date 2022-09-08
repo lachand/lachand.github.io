@@ -3,8 +3,8 @@ layout: default
 title: Conception agile de projets informatiques et génie logiciel TP1 Remise en route Java
 permalink: /teaching/2022/conception-projet-agile-2022-tp-1
 ---
-
-# Objectif
+# Conception agile de projets informatiques et génie logiciel : TP1 - Remise en route java
+## Objectif
 
 Il vous est demandé de mettre en place quelques classes pour vous remettre en tête les grands principes de la programmation orientée objet : messages et collaboration entre objets, attributs et méthodes, constructeurs, héritage, etc.
 
@@ -13,7 +13,7 @@ Pour cela, vous travaillerez sur un jeu de balle au prisonnier.
 <span style="color:red"><b>Votre travail servira de base aux TPs suivants qui feront l'objet d'une note globale.
 Le travail en binome est fortement conseillé.</b></span>
 
-# Environnement
+## Environnement
 
 Pour développer en Java durant le TP, vous pouvez choisir d'utiliser :
 
@@ -22,7 +22,7 @@ Pour développer en Java durant le TP, vous pouvez choisir d'utiliser :
 
 En cas de problème avec Linux, télécharger le fichier [jfxrt.jar](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022/jfxrt.jar). Et rajouter le dans votre CLASSPATH
 
-# Travail demandé
+## Travail demandé
 
 L'archive [TP1.zip](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022/tp1.zip) contient les classes de base :
 
@@ -41,7 +41,7 @@ Consultez la documentation de Java 8 et de Javafx (la bibliothèque graphique ut
 
     Javafx est normalement intégré au Java Development Kit (JDK), depuis la version 8. Cependant sous Linux, il est possible qu'il faille ajouter javafx "à la main"
 
-# Amélioration du programme
+## Amélioration du programme
 
 Modifiez la classe Player ou Field pour :
 
@@ -51,7 +51,7 @@ Modifiez la classe Player ou Field pour :
 
 Voir la [gestion des évènements clavier avec Javafx](http://docs.oracle.com/javafx/2/events/jfxpub-events.htm) au besoin, et leur application dans un jeu [ici (section Handling User Input)](http://gamedevelopment.tutsplus.com/tutorials/introduction-to-javafx-for-game-development--cms-23835),
 
-# Testez.
+Testez.
 
 Ajouter quelques méthodes à Player et Field :
 
@@ -61,7 +61,7 @@ Ajouter quelques méthodes à Player et Field :
 - Faire en sorte qu'une partie oppose 3 joueurs (1 humain, 2 ordinateurs) de chaque côté.
 
 Testez.
-# Tirs
+## Tirs
 
 Nous allons maintenant faire en sorte qu'un tir déclenche un lancer de projectile qui traverse le terrain, et atterisse dans le camp adverse, sur un adversaire ou non.
 
@@ -70,7 +70,8 @@ Nous allons maintenant faire en sorte qu'un tir déclenche un lancer de projecti
 - S'assurer que le projectile se déplace bien lors de la boucle principale du jeu.
 
 Réfléchissez maintenant aux dépendances entre vos classes, et à la visibilité (public, private, final, protected) de vos variables et méthodes de classe.
-Collisions
+
+## Collisions
 
 Dans un premier temps, c'est le terrain (Field) qui connait à la fois les joueurs et le(s) projectile(s). Faire en sorte que :
 
@@ -82,7 +83,8 @@ Dans un premier temps, c'est le terrain (Field) qui connait à la fois les joueu
 - Le joueur adverse disparaisse du jeu s'il est touché. Pour cela rajouter un attribut à la classe Player.
 
 Testez avec les joueurs contrôlés par les utilisateurs.
-Un peu d'intelligence
+
+## Un peu d'intelligence
 
 Rajouter un peu de stratégie en permettant aux joueurs contrôlés par l'ordinateur de :
 
