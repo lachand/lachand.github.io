@@ -24,7 +24,7 @@ En cas de problème avec Linux, télécharger le fichier [jfxrt.jar](https://val
 
 ## Travail demandé
 
-L'archive [TP1.zip](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022/tp1.zip) contient les classes de base :
+L'archive [TP1.zip](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022/TP1.zip) contient les classes de base :
 
 - App : la classe principale, qui gère la création de l'application
 - Field : une classe gérant le terrain de jeu
@@ -37,10 +37,15 @@ Testez, utilisez les touches WASD ou les flêches directionnelles pour déplacer
 
 Consultez la documentation de Java 8 et de Javafx (la bibliothèque graphique utilisée).
 
-    Il est possible qu'Eclipse signale une erreur ou un warning de restriction d'access lors de l'utilisation de javafx. Ce problème peut être résolu en modifiant les propriétés du projet pour autoriser javafx. Vous remarquerez au passage que la solution la plus simple n'est pas la première sur stackoverflow : lisez les solutions alternatives avant de partir pour l'une ou l'autre.
+    Il est possible qu'Eclipse signale une erreur ou un warning de restriction d'accès lors de l'utilisation de javafx. Ce problème peut être résolu en modifiant les propriétés du projet pour autoriser javafx. Vous remarquerez au passage que la solution la plus simple n'est pas la première sur stackoverflow : lisez les solutions alternatives avant de partir pour l'une ou l'autre.
 
     Javafx est normalement intégré au Java Development Kit (JDK), depuis la version 8. Cependant sous Linux, il est possible qu'il faille ajouter javafx "à la main"
 
+Quelques liens si l'ajout de javaFX ne fonctionne pas :
+- [Téléchargement de JavaFX](https://gluonhq.com/products/javafx/)
+- [Ajout sur intelliJ](https://stackoverflow.com/questions/51478675/error-javafx-runtime-components-are-missing-and-are-required-to-run-this-appli)
+- [Ajout à la main](https://stackoverflow.com/questions/18547362/javafx-and-openjdk)
+-
 ## Amélioration du programme
 
 Modifiez la classe Player ou Field pour :
