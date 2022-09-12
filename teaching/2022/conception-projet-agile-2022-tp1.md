@@ -8,6 +8,7 @@ permalink: /teaching/2022/conception-projet-agile-2022-tp-1
 ## Ressources
 - [Documentation Java](https://docs.oracle.com/en/java/)
 - [Quelques rappels sur Java](https://openclassrooms.com/fr/courses/6173501-apprenez-a-programmer-en-java)
+- [Ajouter javaFX à la main (de préférence)](https://www.javatpoint.com/javafx-with-eclipse)
 - [Ajouter javaFX à la main](https://stackoverflow.com/questions/18547362/javafx-and-openjdk)
 - [Si ça ne fonctionne pas](https://pragmaticways.com/how-to-add-javafx-to-eclipse-the-easy-way/)
 
