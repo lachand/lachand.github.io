@@ -4,6 +4,11 @@ title: Conception agile de projets informatiques et génie logiciel TP1 Remise e
 permalink: /teaching/2022/conception-projet-agile-2022-tp-1
 ---
 # Conception agile de projets informatiques et génie logiciel : TP1 - Remise en route java
+
+## Ressources
+- [Documentation Java](https://docs.oracle.com/en/java/)
+- [Quelques rappels sur Java](https://openclassrooms.com/fr/courses/6173501-apprenez-a-programmer-en-java)
+
 ## Objectif
 
 Il vous est demandé de mettre en place quelques classes pour vous remettre en tête les grands principes de la programmation orientée objet : messages et collaboration entre objets, attributs et méthodes, constructeurs, héritage, etc.
