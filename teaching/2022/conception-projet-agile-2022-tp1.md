@@ -27,8 +27,6 @@ Pour développer en Java durant le TP, vous pouvez choisir d'utiliser :
 - Un environnement de développement intégré (comme Eclipse, Netbeans ou Intellij) qui permet de compiler, de générer un projet, de débugger et d'exécuter
 - N'importe quel éditeur de texte avec coloration syntaxique, et effectuer la compilation et l'exécution en ligne de commande (javac, java)
 
-En cas de problème avec Linux, télécharger le fichier [jfxrt.jar](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022/jfxrt.jar). Et rajouter le dans votre CLASSPATH
-
 ## Travail demandé
 
 L'archive [TP1.zip](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022/TP1.zip) contient les classes de base :
@@ -50,9 +48,12 @@ Consultez la documentation de Java 8 et de Javafx (la bibliothèque graphique ut
 
 Quelques liens si l'ajout de javaFX ne fonctionne pas :
 - [Téléchargement de JavaFX](https://gluonhq.com/products/javafx/)
+- [Ajouter javaFX à la main (fonctionnel sur les machines de l'université)](https://stackoverflow.com/questions/33819052/how-do-i-import-javafx-into-eclipse)
 - [Ajout sur intelliJ](https://stackoverflow.com/questions/51478675/error-javafx-runtime-components-are-missing-and-are-required-to-run-this-appli)
 - [Ajout à la main](https://stackoverflow.com/questions/18547362/javafx-and-openjdk)
--
+
+<span style="color:red"><b>Note : dans les arguments de la machine virtuelle, quand il est indiqué path/to/javaFx/lib il est nécessaire de remplacer ce chemin par le chemin absolu du dossier lib de JavaFx (sans espace ou avec des guillemets)</b></span>
+
 ## Amélioration du programme
 
 Modifiez la classe Player ou Field pour :
