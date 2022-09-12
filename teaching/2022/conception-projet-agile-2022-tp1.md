@@ -16,7 +16,7 @@ Il vous est demandé de mettre en place quelques classes pour vous remettre en t
 Pour cela, vous travaillerez sur un jeu de balle au prisonnier.
 
 <span style="color:red"><b>Votre travail servira de base aux TPs suivants qui feront l'objet d'une note globale.
-Le travail en binome est fortement conseillé.</b></span>
+Le travail en binôme est fortement conseillé.</b></span>
 
 ## Environnement
 
@@ -38,7 +38,7 @@ L'archive [TP1.zip](https://valentin.lachand.net/teaching/2022/conception-projet
 
 Décompressez l'archive dans un dossier sur votre compte. Explorez le code source. Compilez et lancez le programme principal balleauprisonnier.
 
-Testez, utilisez les touches WASD ou les flêches directionnelles pour déplacer et faire pivoter les joueurs.
+Testez, utilisez les touches WASD ou les flèches directionnelles pour déplacer et faire pivoter les joueurs.
 
 Consultez la documentation de Java 8 et de Javafx (la bibliothèque graphique utilisée).
 
@@ -56,7 +56,7 @@ Quelques liens si l'ajout de javaFX ne fonctionne pas :
 Modifiez la classe Player ou Field pour :
 
 - Que les touches de contrôle correspondent à un clavier AZERTY plutôt que QWERTY, i.e. ZQSD au lieu de WASD.
-- Que la vitesse (la taille du pas) du Joueur soit variable (que cela deviennent une propriété du joueur spécifié à sa création).
+- Que la vitesse (la taille du pas) du Joueur soit variable (que cela deviennent une propriété du joueur spécifié à sa création/assigné aléatoirement).
 - Que chaque joueur utilise une touche différente pour tirer (au lieu d'ESPACE pour les deux joueurs).
 
 Voir la [gestion des évènements clavier avec Javafx](http://docs.oracle.com/javafx/2/events/jfxpub-events.htm) au besoin, et leur application dans un jeu [ici (section Handling User Input)](http://gamedevelopment.tutsplus.com/tutorials/introduction-to-javafx-for-game-development--cms-23835),
@@ -71,6 +71,7 @@ Ajouter quelques méthodes à Player et Field :
 - Faire en sorte qu'une partie oppose 3 joueurs (1 humain, 2 ordinateurs) de chaque côté.
 
 Testez.
+
 ## Tirs
 
 Nous allons maintenant faire en sorte qu'un tir déclenche un lancer de projectile qui traverse le terrain, et atterisse dans le camp adverse, sur un adversaire ou non.
