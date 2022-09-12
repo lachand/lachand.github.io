@@ -47,7 +47,7 @@ Consultez la documentation de Java 8 et de Javafx (la bibliothèque graphique ut
     Javafx est normalement intégré au Java Development Kit (JDK), depuis la version 8. Cependant sous Linux, il est possible qu'il faille ajouter javafx "à la main"
 
 Quelques liens si l'ajout de javaFX ne fonctionne pas :
-- [Téléchargement de JavaFX](https://gluonhq.com/products/javafx/)
+- [Téléchargement de JavaFX (X86 pour les 32 bits, X64 pour les 64 bits)](https://gluonhq.com/products/javafx/)
 - [Ajouter javaFX à la main (fonctionnel sur les machines de l'université)](https://stackoverflow.com/questions/33819052/how-do-i-import-javafx-into-eclipse)
 - [Ajout sur intelliJ](https://stackoverflow.com/questions/51478675/error-javafx-runtime-components-are-missing-and-are-required-to-run-this-appli)
 - [Ajout à la main](https://stackoverflow.com/questions/18547362/javafx-and-openjdk)
