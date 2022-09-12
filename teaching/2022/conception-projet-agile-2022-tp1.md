@@ -54,6 +54,9 @@ Quelques liens si l'ajout de javaFX ne fonctionne pas :
 
 <span style="color:red"><b>Note : dans les arguments de la machine virtuelle, quand il est indiqué path/to/javaFx/lib il est nécessaire de remplacer ce chemin par le chemin absolu du dossier lib de JavaFx (sans espace ou avec des guillemets)</b></span>
 
+<span style="color:red"><b>Note 2 : Il faut bien, sous éclipse, ajouter les jars de JavaFx à ModulePath, et non à ClassPath</b></span>
+
+
 ## Amélioration du programme
 
 Modifiez la classe Player ou Field pour :
