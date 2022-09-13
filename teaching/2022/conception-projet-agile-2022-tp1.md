@@ -8,8 +8,6 @@ permalink: /teaching/2022/conception-projet-agile-2022-tp-1
 ## Ressources
 - [Documentation Java](https://docs.oracle.com/en/java/)
 - [Quelques rappels sur Java](https://openclassrooms.com/fr/courses/6173501-apprenez-a-programmer-en-java)
-- [Ajouter javaFX à la main (fonctionnel sur les machines de l'université)](https://stackoverflow.com/questions/33819052/how-do-i-import-javafx-into-eclipse)
-- [Si ça ne fonctionne pas](https://pragmaticways.com/how-to-add-javafx-to-eclipse-the-easy-way/)
 
 ## Objectif
 
@@ -48,13 +46,12 @@ Consultez la documentation de Java 8 et de Javafx (la bibliothèque graphique ut
 
 Quelques liens si l'ajout de javaFX ne fonctionne pas :
 - [Téléchargement de JavaFX (X86 pour les 32 bits, X64 pour les 64 bits)](https://gluonhq.com/products/javafx/)
-- [Ajouter javaFX à la main (fonctionnel sur les machines de l'université)](https://stackoverflow.com/questions/33819052/how-do-i-import-javafx-into-eclipse)
-- [Ajout sur intelliJ](https://stackoverflow.com/questions/51478675/error-javafx-runtime-components-are-missing-and-are-required-to-run-this-appli)
-- [Ajout à la main](https://stackoverflow.com/questions/18547362/javafx-and-openjdk)
+- [Ajouter javaFX à la main sur Eclipse(fonctionnel sur les machines de l'université)](https://stackoverflow.com/questions/33819052/how-do-i-import-javafx-into-eclipse)
+- [Ajout de javaFX à la main sur intelliJ](https://stackoverflow.com/questions/51478675/error-javafx-runtime-components-are-missing-and-are-required-to-run-this-appli)
 
 <span style="color:red"><b>Note : dans les arguments de la machine virtuelle, quand il est indiqué path/to/javaFx/lib il est nécessaire de remplacer ce chemin par le chemin absolu du dossier lib de JavaFx (sans espace ou avec des guillemets)</b></span>
 
-<span style="color:red"><b>Note 2 : Il faut bien, sous éclipse, ajouter les jars de JavaFx à ModulePath, et non à ClassPath</b></span>
+<span style="color:red"><b>Note 2 : Il faut bien, sous éclipse, ajouter les jars de JavaFx à Modulepath, et non à Classpath</b></span>
 
 
 ## Amélioration du programme
