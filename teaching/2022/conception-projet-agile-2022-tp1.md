@@ -46,7 +46,7 @@ Consultez la documentation de Java 8 et de Javafx (la bibliothèque graphique ut
 
 Quelques liens si l'ajout de javaFX ne fonctionne pas :
 - [Téléchargement de JavaFX (X86 pour les 32 bits, X64 pour les 64 bits)](https://gluonhq.com/products/javafx/)
-- [Ajouter javaFX à la main sur Eclipse(fonctionnel sur les machines de l'université)](https://stackoverflow.com/questions/33819052/how-do-i-import-javafx-into-eclipse)
+- [Ajouter javaFX à la main sur Eclipse (fonctionnel sur les machines de l'université)](https://stackoverflow.com/questions/33819052/how-do-i-import-javafx-into-eclipse)
 - [Ajout de javaFX à la main sur intelliJ](https://stackoverflow.com/questions/51478675/error-javafx-runtime-components-are-missing-and-are-required-to-run-this-appli)
 
 <span style="color:red"><b>Note : dans les arguments de la machine virtuelle, quand il est indiqué path/to/javaFx/lib il est nécessaire de remplacer ce chemin par le chemin absolu du dossier lib de JavaFx (sans espace ou avec des guillemets)</b></span>
