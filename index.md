@@ -9,6 +9,7 @@ permalink: /
 
 ## Current position
 ### Professeur Agrégé at ICOM
+[valentin.lachand-pascal@univ-lyon2.fr](mailto:valentin.lachand-pascal@univ-lyon2.fr)
 
 ## Former positions
 ### Research Engineer at LIRIS
