@@ -12,7 +12,7 @@ Un collègue vous envoie le cas d’utilisation suivant. A l’aide des conseils
 
 <b>Cas d’utilisation 25 : ouvrir une session </b>
 <i>Ce cas d’utilisation décrit le processus par lequel les utilisateurs se connectent au système de traitement des commandes.
-Il vise aussi à établir les autorisations d’accès aux différentes  catégories d’utilisateurs (clients, employés, ...).
+Il vise aussi à établir les autorisations d’accès aux différentes catégories d’utilisateurs (clients, employés, ...).
 </i>
 
 <b>Scénario :</b>
