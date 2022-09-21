@@ -9,6 +9,8 @@ Ce cours vise à faire acquérir aux étudiants les différentes modalités de g
 # Resources (à venir)
   * Contexte, méthodes et processus [pdf à jour](https://docs.google.com/presentation/d/1q1KOAoI7w_2FLOFsVd4_WO32Nu2NZYycJbULESf1I_w/export/pdf)
   * Cas d'utilisation textuels [pdf à jour](https://docs.google.com/presentation/d/1i90IGwH3wGxR71R70ykkh3U7DA-ZHAf9k_-4mnamrF4/export/pdf)
+  * Méthodes agiles [pdf à jour](https://docs.google.com/presentation/d/18oT4Zuw6Icf-0INN4Yx3YJF0GihQULUxJY_A1OW5p_I/export/pdf)
+  * Éthique et informatique [pdf à jour](https://docs.google.com/presentation/d/16UpZfQe-JKgQXKCBaUKG-Qn03WVmt1VUkLCF_4IkEYg/export/pdf)
 
 # TPs (à venir)
 * [Remise en route Java](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022-tp-1)
