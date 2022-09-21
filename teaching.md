@@ -7,6 +7,9 @@ permalink: /teaching
 
 ## [Conception agile de projets informatiques et génie logiciel](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022)
 Intervention at ICOM (Université Lyon 2) about the use of Agile methodology for project management.
+
+## [UI/UX design](https://valentin.lachand.net/teaching/2022/ui-ux-design-2022)
+Intervention at ICOM (Université Lyon 2) about UI and UX design
 # 2018-2019
 
 ## [Exploitation de données pour la conception d'outils numériques](https://valentin.lachand.net/teaching/archives/2019/km-2019)
