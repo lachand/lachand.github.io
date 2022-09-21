@@ -16,7 +16,7 @@ paginate:            5
 author:
   name:              Valentin Lachand-Pascal
   url:               https://valentin.lachand.net
-  email:             valentin@lachand.net
+  email:             valentin.lachand-pascal@univ-lyon2.fr
 
 # Custom vars
 version:             1.0.0
