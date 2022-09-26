@@ -10,6 +10,9 @@ Intervention at ICOM (Université Lyon 2) about the use of Agile methodology for
 
 ## [UI/UX design](https://valentin.lachand.net/teaching/2022/ui-ux-design-2022)
 Intervention at ICOM (Université Lyon 2) about UI and UX design
+
+## [Accompagnement](https://valentin.lachand.net/teaching/2022/accompagnement-2022)
+Intervention at ICOM (Université Lyon 2) in the accompanying course for Licences 1
 # 2018-2019
 
 ## [Exploitation de données pour la conception d'outils numériques](https://valentin.lachand.net/teaching/archives/2019/km-2019)
