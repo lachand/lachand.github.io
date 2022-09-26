@@ -27,7 +27,7 @@ Toujours dans un terminal, déplacez-vous dans le dossier ou vous souhaitez cré
 
     git clone git@https://github.com/NomdUtilisateur/NomDeVotreRepo.git
 
-Se placer dans le répertoire du et récupérer des modifications depuis le projet agile-genie-logiciel:
+Se placer dans le répertoire du projet et récupérer des modifications depuis le projet agile-genie-logiciel:
 
     git pull https://github.com/lachand/agile-genie-logiciel.git
 
