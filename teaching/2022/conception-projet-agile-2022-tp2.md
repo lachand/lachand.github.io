@@ -81,7 +81,9 @@ N’affiche à présent plus les fichiers dans target, mais affiche le fichier .
 
 Puis valider ajoutant un message de commit:
 
-    git commit -m "votre message"
+    git commit -a -m "votre message"
+
+Note : la commande -a ajoute tout les fichiers (hors ceux spécifiés par le gitignore) au commit
 
 Puis faire le push
 
