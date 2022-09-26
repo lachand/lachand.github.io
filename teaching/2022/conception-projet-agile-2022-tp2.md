@@ -30,6 +30,7 @@ Toujours dans un terminal, déplacez-vous dans le dossier ou vous souhaitez cré
 Se placer dans le répertoire du et récupérer des modifications depuis le projet agile-genie-logiciel:
 
     git pull https://github.com/lachand/agile-genie-logiciel.git
+
 En cas d'erreur, utilisez la commande suivante :
 
     git pull https://github.com/lachand/agile-genie-logiciel.git --allow-unrelated-histories
@@ -37,6 +38,10 @@ En cas d'erreur, utilisez la commande suivante :
 Ce projet est constitué d’un projet maven (nommé balleauprisonnier_mvn dans le fichier pom.xml).
 
 Reverser dans votre projet github:
+
+    git push -u origin main
+
+Attention, sur les anciens projets, on utilisait la commande suivante (Github à décidé de changer le nom de la branche principale par défaut) :
 
     git push -u origin master
 
