@@ -124,6 +124,10 @@ Ajoutez à votre fichier pom.xml les lignes suivantes
       </plugins>
     </build>
 
+Remplacez la main class par
+
+    fr.icom.info.m1.balleauprisonnier_mvn.App
+
 Si vous avez bien configuré le plugin, vous pouvez maintenant éxecuter le projet
 
     mvn javafx:run
