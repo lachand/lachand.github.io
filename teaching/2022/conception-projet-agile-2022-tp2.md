@@ -25,7 +25,7 @@ Sur votre ordinateur, dans un terminal, ajoutez les informations de base à votr
 
 Toujours dans un terminal, déplacez-vous dans le dossier ou vous souhaitez créer le projet, et clonez votre dépôt git. L’URL de votre dépôt est accessible dans Github depuis la page du projet :
 
-    git clone git@fhttps://github.com/NomdUtilisateur/NomDeVotreRepo.git
+    git clone git@https://github.com/NomdUtilisateur/NomDeVotreRepo.git
 
 Se placer dans le répertoire du et récupérer des modifications depuis le projet agile-genie-logiciel:
 
