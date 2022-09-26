@@ -90,6 +90,20 @@ Dans le projet github, aller voir le dépôt et cliquer sur le dernier commit
 
 ## Invoquer
 
+Sur eclipse : il faut faire clique droit sur pom.xml, run as -> maven configuration, en créer une nouvelle et ajouter
+
+    mvn javafx:run
+
+Sur IntelliJ : ouvrir le projet, aller dans le terminal, écrire mvn javafx:run et faire Ctrl + Entrer
+
+Si ça ne fonctionne pas : vous devez installer maven. Sur windows [https://maven.apache.org/](https://maven.apache.org/)
+sur linux
+
+    ## Debian based
+      sudo apt-install mvn
+    ## Fedora based
+      sudo dnf install mvn
+
     mvn compile
 
 À la racine du projet et constater que la construction du projet est bien déclenchée.
