@@ -90,9 +90,9 @@ Dans le projet github, aller voir le dépôt et cliquer sur le dernier commit
 
 ## Invoquer
 
-Sur eclipse : il faut faire clique droit sur pom.xml, run as -> maven configuration, en créer une nouvelle et ajouter
+Sur eclipse : il faut faire clique droit sur pom.xml, run as -> maven configuration, en créer une nouvelle et ajouter (dans le goals)
 
-    mvn javafx:run
+    javafx:run
 
 Sur IntelliJ : ouvrir le projet, aller dans le terminal, écrire mvn javafx:run et faire Ctrl + Entrer
 
@@ -106,21 +106,6 @@ sur linux
 
     mvn compile
 
-À la racine du projet et constater que la construction du projet est bien déclenchée.
-
-Le répertoire target contient tout ce qui est généré par maven. Explorer le contenu du répertoire, puis invoquer
-
-    mvn clean
-
-Regarder ce qui a été supprimé.
-
-On peut lancer les tests associés au projet avec:
-
-    mvn test
-
-La phase de vérification doit fonctionner, car aucun test unitaire n’est réellement implémenté pour le moment, nous verrons cela dans un TP suivant.
-
-Regardez le fichier pom.xml et regardez les différentes dépendances : a quoi servent-elles ?
 
 Nous ne pouvons actuellement pas exécuter notre code en l'état. Nous devons ajouter une configuration de build avec le plugin javafx-maven-plugin
 
