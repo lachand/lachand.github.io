@@ -14,7 +14,7 @@ Ce cours vise à faire acquérir aux étudiants les différentes modalités de g
 
 # TPs (à venir)
 * [Remise en route Java](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022-tp-1)
-* Maven-Git-Github
+* [Maven-Git-Github](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022-tp-2)
 * Ré-ingénierie (design patterns)
 * Tests
 
