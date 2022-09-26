@@ -99,17 +99,6 @@ Sur eclipse : il faut faire clique droit sur pom.xml, run as -> maven configurat
 
 Sur IntelliJ : ouvrir le projet, aller dans le terminal, écrire mvn javafx:run et faire Ctrl + Entrer
 
-Si ça ne fonctionne pas : vous devez installer maven. Sur windows [https://maven.apache.org/](https://maven.apache.org/)
-sur linux
-
-    ## Debian based
-      sudo apt-install mvn
-    ## Fedora based
-      sudo dnf install mvn
-
-    mvn compile
-
-
 Nous ne pouvons actuellement pas exécuter notre code en l'état. Nous devons ajouter une configuration de build avec le plugin javafx-maven-plugin
 
 Ajoutez à votre fichier pom.xml les lignes suivantes
@@ -135,8 +124,18 @@ Si vous avez bien configuré le plugin, vous pouvez maintenant éxecuter le proj
 
     mvn javafx:run
 
+Si ça ne fonctionne pas : vous devez installer maven. Sur windows [https://maven.apache.org/](https://maven.apache.org/)
+sur linux
+
+    ## Debian based
+      sudo apt-install mvn
+    ## Fedora based
+      sudo dnf install mvn
+
+    mvn compile
+
 git commit -m "un message explicatif ici"
-git push -u origin master
+git push -u origin main
 
 Constater que les modifications sont visibles depuis site de votre projet github.
 
