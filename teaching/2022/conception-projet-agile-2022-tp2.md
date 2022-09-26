@@ -15,6 +15,9 @@ Mettre en place et maitriser les outils de gestion de code utilisés tout au lon
 
 Créer (si nécessaire) un compte sur github ainsi qu'un nouveau projet sur la github.
 
+Si vous êtes sur windows, utilisez Git CMD/Git BASH pour avoir le Bash pour Git (tappez git dans votre barre de recherche).
+Si Git CMD/Git BASH n'est pas installé, allez sur [https://gitforwindows.org](https://gitforwindows.org) et téléchargez puis installez les outils
+
 Sur votre ordinateur, dans un terminal, ajoutez les informations de base à votre compte git :
 
     git config --global user.name "Nom Prenom"
