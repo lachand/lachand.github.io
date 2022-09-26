@@ -45,6 +45,9 @@ Attention, sur les anciens projets, on utilisait la commande suivante (Github à
 
     git push -u origin master
 
+Si vous avez une erreur de connection (403 ou indication vous demandant un token) suivez le tutoriel suivant : [https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+
+
 Dans le navigateur, naviguer dans le dépôt: vous pouvez voir les révisions déjà présentes et même regarder le code source en ligne, ainsi que les différences entre les révisions.
 ## .gitignore
 
@@ -83,8 +86,6 @@ Puis valider ajoutant un message de commit:
 Puis faire le push
 
     git push
-
-Si vous avez une erreur de connection (403 ou indication vous demandant un token) suivez le tutoriel suivant : [https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
 Dans le projet github, aller voir le dépôt et cliquer sur le dernier commit
 
