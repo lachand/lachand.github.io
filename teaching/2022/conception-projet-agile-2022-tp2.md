@@ -84,6 +84,8 @@ Puis faire le push
 
     git push
 
+Si vous avez une erreur de connection (403 ou indication vous demandant un token) suivez le tutoriel suivant : [https://techglimpse.com/git-push-github-token-based-passwordless/](https://techglimpse.com/git-push-github-token-based-passwordless/)
+
 Dans le projet github, aller voir le dépôt et cliquer sur le dernier commit
 
 ## Invoquer
