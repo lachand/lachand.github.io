@@ -20,7 +20,7 @@ Si Git CMD/Git BASH n'est pas installé, allez sur [https://gitforwindows.org](h
 
 Sur votre ordinateur, dans un terminal, ajoutez les informations de base à votre compte git :
 
-    git config --global user.name "Nom Prenom"
+    git config --global user.name "nom d'utilisateur"
     git config --global user.email "votre_email"
 
 Toujours dans un terminal, déplacez-vous dans le dossier ou vous souhaitez créer le projet, et clonez votre dépôt git. L’URL de votre dépôt est accessible dans Github depuis la page du projet :
