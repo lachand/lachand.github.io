@@ -11,10 +11,12 @@ Ce cours vise à faire acquérir aux étudiants les différentes modalités de g
   * Cas d'utilisation textuels [pdf à jour](https://docs.google.com/presentation/d/1i90IGwH3wGxR71R70ykkh3U7DA-ZHAf9k_-4mnamrF4/export/pdf)
   * Méthodes agiles [pdf à jour](https://docs.google.com/presentation/d/18oT4Zuw6Icf-0INN4Yx3YJF0GihQULUxJY_A1OW5p_I/export/pdf)
   * Éthique et informatique [pdf à jour](https://docs.google.com/presentation/d/16UpZfQe-JKgQXKCBaUKG-Qn03WVmt1VUkLCF_4IkEYg/export/pdf)
+  * Design Patterns [pdf à jour](https://docs.google.com/presentation/d/1cd2JJLeJc8KtFiE6Kc8fTFTXl5tVGWtGmE0_fpzxqPI/export/pdf)
 
 # TPs (à venir)
 * [Remise en route Java](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022-tp-1)
 * [Maven-Git-Github](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022-tp-2)
+
 * Ré-ingénierie (design patterns)
 * Tests
 
