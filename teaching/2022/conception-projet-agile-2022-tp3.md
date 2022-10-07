@@ -11,7 +11,7 @@ Il vous est demandé d’effectuer une ré-ingénierie d’un code existant en m
 
 Votre travail devra être rendu sous forme d’un projet déposé sur Github, au plus tard le dimanche 1 décembre à 23h59.
 
-Penser à remplir dès à présent le questionnaire de rendu indiquant votre binôme et votre dépôt Git. Le dépôt ne sera relevé qu’après la date de rendu.
+Penser à remplir dès à présent le [questionnaire de rendu](https://forms.gle/3qWkkT6uPAZJNEqP7) indiquant votre binôme et votre dépôt Git. Le dépôt ne sera relevé qu’après la date de rendu.
 
 ## Déroulement
 
@@ -63,38 +63,33 @@ Pensez à utiliser les patterns de création, mais aussi de structure et de comp
 
 Les projets peuvent être rendus en binômes.
 
-Votre travail devra être rendu sous forme d’un projet déposé sur Github, au plus tard le 1 décembre à 23h59.
+Votre travail devra être rendu sous forme d’un projet déposé sur Github, au plus tard le 30 Novembre à 23h59. (seule les versions poussées avant cette date seront utilisées)
 
-Pensez à remplir dès à présent le questionnaire de rendu indiquant votre binôme et votre dépôt Github. Le dépôt ne sera relevé qu’après la date de rendu. Ajoutez Aurélien TABARD et Lionel MEDINI en tant que “reporters”.
-
-Votre dépôt sur la Forge devra contenir :
+Pensez à remplir dès à présent le questionnaire de rendu indiquant votre binôme et votre dépôt Github. Le dépôt ne sera relevé qu’après la date de rendu.
+Votre dépôt sur github devra contenir :
 
 - un fichier README.txt (ou .md) à la racine du projet
 - un fichier maven pour le build du projet
 - les sources (fichiers Java)
-- la documentation javadoc de vos classes
-- les fichiers natifs de votre modélisation UML (indiquez quel outil a été utilisé)
 - le rapport en PDF (6 pages maximum, format libre).
 
 Le rapport doit comprendre une présentation globale du projet, une motivation des choix d’architecture (et des patterns choisis), et leur explication en s’aidant de diagrammes appropriés et adaptés au degré de précision et au type d’explication. Donc des diagramme de classe, mais pas que cela, et pas de plats de spaghettis généré automatiquement représentant tout le code.
 
-Barême indicatif (sur 27, remis sur 20) :
+Barême indicatif (sur 21, remis sur 20) :
 
-- Réalisation et exécution : 18 points
-  - Clone git qui fonctionne (les bonnes personnes sont rapporteurs, la bonne branche est indiquée dans Spiral) (0,5 pts)
+- Réalisation et exécution : 15 points
+  - Clone git qui fonctionne (0,5 pts)
   - Compilation Maven (1 pts)
-  - Code qui tourne directement sur l’ordinateur de l’évaluateur (1 pts)
+  - Code qui tourne directement sur l’ordinateur de l’évaluateur (1 pt)
   - Qualité du code (2 pts)
   - Structure globale du code, utilisation de Packages (0,5 pts)
   - README et respect des consignes (1 pts)
   - Interface (UI) propre (1 pts)
   - Stratégies simples implémentées (2 pts)
   - Gestion des tirs / touchés (1 pts)
-  - Tests (3 pts)
   - Patterns mis en oeuvre (3 pts)
-- Rapport et modélisation : 9 points
+- Rapport et modélisation : 6 points
   - Qualité de la réalisation Patterns utilisés (MVC est obligatoire + 2 autres minimums) (3pts)
-  - Modélisation des parties clés de l’application (3pts)
   - Explications (3pts)
 - Les points suivants entrainent des malus (jusqu’à -5 pts)
   - Contenu et forme (voir ci-dessus)
