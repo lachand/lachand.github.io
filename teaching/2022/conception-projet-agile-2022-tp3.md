@@ -21,8 +21,8 @@ Le travail peut être organisé en deux étapes :
 - la seconde sera dédiée à l’extension du projet pour réaliser un jeu plus complet.
 
 ## Ressources
-[Page recensant les design patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
-[draw.io](https://draw.io) Pour la modélisation
+- [Page recensant les design patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
+- [draw.io](https://draw.io) Pour la modélisation
 
 ## Partie 1 : Ré-ingénierie du code
 
