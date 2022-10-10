@@ -9,7 +9,7 @@ permalink: /teaching/2022/conception-projet-agile-2022-tp-3
 
 Il vous est demandé d’effectuer une ré-ingénierie d’un code existant en mettant en œuvre les patrons de conception vus en cours.
 
-Votre travail devra être rendu sous forme d’un projet déposé sur Github, au plus tard le dimanche 1 décembre à 23h59.
+Votre travail devra être rendu sous forme d’un projet déposé sur Github, au plus tard le 30 Novembre à 17h59.
 
 Penser à remplir dès à présent le [questionnaire de rendu](https://forms.gle/3qWkkT6uPAZJNEqP7) indiquant votre binôme et votre dépôt Git. Le dépôt ne sera relevé qu’après la date de rendu.
 
@@ -63,7 +63,7 @@ Pensez à utiliser les patterns de création, mais aussi de structure et de comp
 
 Les projets peuvent être rendus en binômes.
 
-Votre travail devra être rendu sous forme d’un projet déposé sur Github, au plus tard le 30 Novembre à 23h59. (seule les versions poussées avant cette date seront utilisées)
+Votre travail devra être rendu sous forme d’un projet déposé sur Github, au plus tard le 30 Novembre à 17h59. (seule les versions poussées avant cette date seront utilisées)
 
 Pensez à remplir dès à présent le questionnaire de rendu indiquant votre binôme et votre dépôt Github. Le dépôt ne sera relevé qu’après la date de rendu.
 Votre dépôt sur github devra contenir :
