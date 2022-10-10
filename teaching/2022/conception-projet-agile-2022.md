@@ -6,18 +6,18 @@ permalink: /teaching/2022/conception-projet-agile-2022
 # Objectifs du parcours
 Ce cours vise à faire acquérir aux étudiants les différentes modalités de gestion de projet, en particulier les spécificités de la gestion de projet agile et leurs différences par rapport à une gestion de projet plus classique. Afin de consolider les connaissances sur la gestion de projet agile, nous aborderons aussi des notions de génie logiciel. Afin de mettre en oeuvre les connaissances aquises, nous travaillerons sur un projet tout au long du parcours d’enseignement.
 
-# Resources (à venir)
+# Resources
   * Contexte, méthodes et processus [pdf à jour](https://docs.google.com/presentation/d/1q1KOAoI7w_2FLOFsVd4_WO32Nu2NZYycJbULESf1I_w/export/pdf)
   * Cas d'utilisation textuels [pdf à jour](https://docs.google.com/presentation/d/1i90IGwH3wGxR71R70ykkh3U7DA-ZHAf9k_-4mnamrF4/export/pdf)
   * Méthodes agiles [pdf à jour](https://docs.google.com/presentation/d/18oT4Zuw6Icf-0INN4Yx3YJF0GihQULUxJY_A1OW5p_I/export/pdf)
   * Éthique et informatique [pdf à jour](https://docs.google.com/presentation/d/16UpZfQe-JKgQXKCBaUKG-Qn03WVmt1VUkLCF_4IkEYg/export/pdf)
   * Design Patterns [pdf à jour](https://docs.google.com/presentation/d/1cd2JJLeJc8KtFiE6Kc8fTFTXl5tVGWtGmE0_fpzxqPI/export/pdf)
 
-# TPs (à venir)
+# TPs
 * [Remise en route Java](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022-tp-1)
 * [Maven-Git-Github](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022-tp-2)
 
-* Ré-ingénierie (design patterns)
+* [Ré-ingénierie (design patterns)](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022-tp-3)
 * Tests
 
 # TDs (à venir)
