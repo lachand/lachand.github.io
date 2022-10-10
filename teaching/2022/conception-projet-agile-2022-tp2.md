@@ -97,7 +97,7 @@ Sur eclipse : il faut faire clique droit sur pom.xml, run as -> maven configurat
 
     javafx:run
 
-Sur IntelliJ : ouvrir le projet, aller dans le terminal, écrire mvn javafx:run et faire Ctrl + Entrer
+Sur IntelliJ : ouvrir le projet => edit configuration => add new => Maven. Dans `Command Line`, ajouter javafx:run
 
 Nous ne pouvons actuellement pas exécuter notre code en l'état. Nous devons ajouter une configuration de build avec le plugin javafx-maven-plugin
 
@@ -121,8 +121,6 @@ Remplacez la main class par
     fr.icom.info.m1.balleauprisonnier_mvn.App
 
 Si vous avez bien configuré le plugin, vous pouvez maintenant éxecuter le projet
-
-    mvn javafx:run
 
 SurWindows, vous pouvez avoir à ce moment une erreur sur intellij. Vous devez installer une version plus récente du jdk. Les instructions sont disponibles ici : [https://www.codejava.net/java-se/install-openjdk-18-on-windows](https://www.codejava.net/java-se/install-openjdk-18-on-windows)
 
