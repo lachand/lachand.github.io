@@ -124,7 +124,7 @@ Si vous avez bien configuré le plugin, vous pouvez maintenant éxecuter le proj
 
     mvn javafx:run
 
-SurWindows, vous povez avoir à ce moment une erreur sur intellij. Vous devez installer une version plus récente du jdk. Les instructions sont disponibles ici : [https://www.codejava.net/java-se/install-openjdk-18-on-windows](https://www.codejava.net/java-se/install-openjdk-18-on-windows)
+SurWindows, vous pouvez avoir à ce moment une erreur sur intellij. Vous devez installer une version plus récente du jdk. Les instructions sont disponibles ici : [https://www.codejava.net/java-se/install-openjdk-18-on-windows](https://www.codejava.net/java-se/install-openjdk-18-on-windows)
 
 Si ça ne fonctionne pas : vous devez installer maven. Sur windows [https://maven.apache.org/](https://maven.apache.org/)
 sur linux

@@ -20,6 +20,10 @@ Le travail peut être organisé en deux étapes :
 - la première sera une étape de ré-ingénierie (refactoring) du code utilisé dans les premiers TP, afin de mieux structurer le projet et le rendre plus modulaire.
 - la seconde sera dédiée à l’extension du projet pour réaliser un jeu plus complet.
 
+## Ressources
+[Page recensant les design patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
+[draw.io](https://draw.io) Pour la modélisation
+
 ## Partie 1 : Ré-ingénierie du code
 
 Le code fourni lors de la première séance est un package relativement fouillis. Toutes les classes sont dépendantes les unes des autres, les couches graphique et métier ne sont pas séparées.
