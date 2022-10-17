@@ -22,6 +22,7 @@ Le travail peut être organisé en deux étapes :
 
 ## Ressources
 - [Page recensant les design patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
+- [Les design patterns en français](https://refactoring.guru/fr/design-patterns/catalog)
 - [draw.io](https://draw.io) Pour la modélisation
 - [Une vidéo présentant des design patterns](https://www.youtube.com/watch?v=tv-_1er1mWI)
 
