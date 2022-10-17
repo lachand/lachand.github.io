@@ -80,9 +80,9 @@ Votre dépôt sur github devra contenir :
 
 Le rapport doit comprendre une présentation globale du projet, une motivation des choix d’architecture (et des patterns choisis), et leur explication en s’aidant de diagrammes appropriés et adaptés au degré de précision et au type d’explication. Donc des diagramme de classe, mais pas que cela, et pas de plats de spaghettis généré automatiquement représentant tout le code.
 
-Barême indicatif (sur 21, remis sur 20) :
+Barême indicatif (sur 18, remis sur 20) :
 
-- Réalisation et exécution : 15 points
+- Réalisation et exécution : 13 points
   - Clone git qui fonctionne (0,5 pts)
   - Compilation Maven (1 pts)
   - Code qui tourne directement sur l’ordinateur de l’évaluateur (1 pt)
