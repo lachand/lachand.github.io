@@ -16,13 +16,12 @@ Ce cours vise à faire acquérir aux étudiants les différentes modalités de g
 # TPs
 * [Remise en route Java](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022-tp-1)
 * [Maven-Git-Github](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022-tp-2)
-
 * [Ré-ingénierie (design patterns)](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022-tp-3)
 * Tests
 
 # TDs (à venir)
-* Cas d'utilisation textuels
-* Paper4Scrum
+* [Paper4Scrum](https://docs.google.com/presentation/d/1bOWDFmaU2nCbsgoLhdzT5AFKthqreHr_bX3Nr8ykQcg/export/pdf)
+* [Cas d'utilisation textuels](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022-td-2)
 
 # Modalités d'évaluation
 - 50% de la note sur le TP (rendu de projet)
