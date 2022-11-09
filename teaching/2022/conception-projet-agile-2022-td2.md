@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Conception agile de projets informatiques et génie logiciel TD1 Cas d'utilisation
-permalink: /teaching/2022/conception-projet-agile-2022-td-1
+permalink: /teaching/2022/conception-projet-agile-2022-td-2
 ---
-# Conception agile de projets informatiques et génie logiciel : TD1 - Cas d'utilisation
+# Conception agile de projets informatiques et génie logiciel : TD2 - Cas d'utilisation
 
 On s’intéresse ici aux cas d’utilisation textuels de l’approche d’A. Cockburn.
 
