@@ -21,6 +21,7 @@ Ce cours vise à faire acquérir aux étudiants les différentes modalités de g
 
 # TDs (à venir)
 * [Paper4Scrum](https://docs.google.com/presentation/d/1bOWDFmaU2nCbsgoLhdzT5AFKthqreHr_bX3Nr8ykQcg/export/pdf)
+* [Chronomètres pour Paper4Scrum](http://valentin.lachand.net/ScrumVilleChronometers/)
 * [Cas d'utilisation textuels](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022-td-2)
 
 # Modalités d'évaluation
