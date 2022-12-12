@@ -22,7 +22,7 @@ Ce cours vise à faire acquérir aux étudiants les différentes modalités de g
 * [TD1 - Paper4Scrum](https://docs.google.com/presentation/d/1bOWDFmaU2nCbsgoLhdzT5AFKthqreHr_bX3Nr8ykQcg/export/pdf)
 * [TD1 - Chronomètres pour Paper4Scrum](https://valentin.lachand.net/ScrumVilleChronometers/)
 * [TD2 - Cas d'utilisation textuels](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022-td-2)
-* TD3 - 
+* [TD3 - Planning Poker](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022-td-3)
 
 # Modalités d'évaluation
 - 50% de la note sur le TP (rendu de projet)
