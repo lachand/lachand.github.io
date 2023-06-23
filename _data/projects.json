@@ -2,7 +2,7 @@
 	{
 		"name": "LikertScales",
 		"image": "likertscale.jpg",
-		"demo": "https://likert-scale.firebaseapp.com/",
+		"demo": "https://valentin.lachand.net/LikertScales/",
 		"git" : "https://github.com/sical/LikertScales",
 		"date": "",
 		"tags": ["Visualisation","Generator"]
