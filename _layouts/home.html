@@ -1,0 +1,76 @@
+---
+layout: base
+section: home
+---
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign pre = "" -%}{%- if lang == "en" -%}{%- assign pre = "/en" -%}{%- endif -%}
+<section class="wrap hero" id="hero">
+  <div class="id-block">
+    <figure class="avatar rise" style="--i:0">
+      <img src="{{ '/assets/img/portrait.jpg' | relative_url }}" alt="{{ site.title }}" width="333" height="332">
+      <svg class="cotes" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <path pathLength="1" vector-effect="non-scaling-stroke" d="M0 22V0H22M78 0H100V22M100 78V100H78M22 100H0V78"/>
+      </svg>
+    </figure>
+    <div class="id-text">
+      <h1 class="display-xl split" aria-label="{{ site.title }}">{{ site.title }}</h1>
+      <span class="label eyebrow rise" style="--i:5">{{ t.role }}</span>
+    </div>
+  </div>
+  <p class="lead rise" style="--i:6">{{ t.hero_lead }}</p>
+  <div class="row rise" style="--i:7">
+    <a class="btn primary" href="{{ t.paths.research | relative_url }}">{{ t.see_publications }} {% include icons.html name="arrow" %}</a>
+    <a class="btn" href="{{ t.paths.projects | relative_url }}">{{ t.see_projects }}</a>
+  </div>
+  <dl class="fiche cote rise" style="--i:8">
+    <div><dt>{{ t.card_post }}</dt><dd>{{ t.card_post_v }}</dd></div>
+    <div><dt>{{ t.card_phd }}</dt><dd>{{ t.card_phd_v }}</dd></div>
+    <div><dt>{{ t.card_lab }}</dt><dd>{{ t.card_lab_v }}</dd></div>
+  </dl>
+</section>
+
+<section class="wrap" aria-label="{{ t.metrics }}" style="padding-top:24px">
+  <ul class="metrics">
+    <li class="card metric reveal"><span class="label muted">{{ t.m_pub }}</span><span class="val"><span class="mesure-l" data-count="{{ site.data.publications | size }}">{{ site.data.publications | size }}</span></span></li>
+    <li class="card metric reveal"><span class="label muted">{{ t.m_thesis }}</span><span class="val"><span class="mesure-l" data-count="230">230</span><span class="unit">{{ t.m_pages }}</span></span></li>
+    <li class="card metric reveal"><span class="label muted">{{ t.m_proj }}</span><span class="val"><span class="mesure-l" data-count="{{ site.data.projects | size }}">{{ site.data.projects | size }}</span></span></li>
+    <li class="card metric reveal"><span class="label muted">{{ t.m_prev }}</span><span class="val"><span class="mesure-l" data-count="3">3</span></span></li>
+  </ul>
+</section>
+
+<section class="wrap sec" id="parcours" aria-labelledby="h-parcours">
+  <div class="cote-rule"><h2 class="display-m" id="h-parcours">{{ t.career }}</h2></div>
+  <ul class="timeline">
+    {%- for j in t.jobs %}
+    <li class="reveal"><span class="heading">{{ j.title }}</span><span class="where">{{ j.where }}</span>
+      {%- if j.current %}<span class="stamp ok">{% include icons.html name="ok" %}{{ t.now }}</span>{% else %}<span class="stamp">{% include icons.html name="inactive" %}{{ t.past }}</span>{% endif -%}
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+
+<section class="wrap sec" id="recherche" aria-labelledby="h-recherche">
+  <div class="cote-rule"><h2 class="display-m" id="h-recherche">{{ t.research }}</h2></div>
+  <p class="lead reveal" style="margin-bottom:24px">{{ t.research_lead }}</p>
+  <div class="grid2">
+    {%- for p in site.data.publications limit: 3 %}{% include publication.html p=p lang=lang %}{% endfor %}
+  </div>
+  <p style="margin-top:16px"><a class="btn" href="{{ t.paths.research | relative_url }}">{{ t.see_all_publications }} {% include icons.html name="arrow" %}</a></p>
+</section>
+
+<section class="wrap sec" id="projets" aria-labelledby="h-projets">
+  <div class="cote-rule"><h2 class="display-m" id="h-projets">{{ t.projects }}</h2></div>
+  <div class="grid2 grid3">
+    {%- for p in site.data.projects %}{% if p.featured %}{% include project.html p=p lang=lang %}{% endif %}{% endfor %}
+  </div>
+  <p style="margin-top:16px"><a class="btn" href="{{ t.paths.projects | relative_url }}">{{ t.see_all_projects }} {% include icons.html name="arrow" %}</a></p>
+</section>
+
+<section class="wrap sec" id="enseignement" aria-labelledby="h-ens">
+  <div class="cote-rule"><h2 class="display-m" id="h-ens">{{ t.teaching }}</h2></div>
+  <ul class="courses courses-vol">
+    {%- for g in site.data.icom %}{% for it in g.items %}{% if it.home %}{% include icom-row.html it=it lang=lang %}{% endif %}{% endfor %}{% endfor %}
+  </ul>
+  <p style="margin-top:16px"><a class="btn" href="{{ t.paths.teaching | relative_url }}">{{ t.see_all_teaching }} {% include icons.html name="arrow" %}</a></p>
+</section>

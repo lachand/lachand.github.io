@@ -1,0 +1,99 @@
+# Source : dépôts publics https://github.com/lachand (consultés le 30/10/2026).
+# kind : research | teaching | home
+- id: toccata
+  name: Toccata
+  kind: research
+  featured: true
+  image: toccata.png
+  desc:
+    fr: "Système d'orchestration de classe fondé sur l'Activity Based Computing, développé pendant la thèse."
+    en: "Classroom orchestration system based on Activity Based Computing, developed during the PhD."
+  tags: [Éducation, IHM, Thèse]
+  repo: https://github.com/lachand/Toccata
+  demo: https://demo.toccata.education
+- id: likertscales
+  name: LikertScales
+  kind: research
+  image: likertscale.jpg
+  desc:
+    fr: "Diagramme à barres empilées divergentes pour les échelles de Likert, avec export SVG, version noir et blanc pour l'impression et nombre de points variable."
+    en: "Diverging stacked bar chart for Likert scales, with SVG export, a print-ready black and white mode and a variable number of points."
+  tags: [Visualisation, Générateur]
+  repo: https://github.com/lachand/LikertScales
+  demo: https://valentin.lachand.net/LikertScales/
+- id: stage-indicateurs
+  name: StageIndicateursMultiDispositifs
+  kind: research
+  thumb: true
+  desc:
+    fr: "Dépôt du stage sur la visualisation d'indicateurs en contexte multi-dispositifs."
+    en: "Repository of the internship on indicator visualisation in multi-device contexts."
+  tags: [IHM, Visualisation]
+  repo: https://github.com/lachand/StageIndicateursMultiDispositifs
+- id: digcomp
+  name: DigCompCNL2
+  kind: teaching
+  thumb: true
+  desc:
+    fr: "Tableau de pilotage du référentiel DigComp 3.0 : acquis d'apprentissage, collaboration en temps réel et génération de contenu pédagogique."
+    en: "Dashboard for the DigComp 3.0 framework: learning outcomes, real-time collaboration and generation of teaching content."
+  tags: [Éducation, Web]
+  repo: https://github.com/lachand/DigCompCNL2
+- id: presentaforge
+  name: PresentaForge
+  kind: teaching
+  image: presentaforge.jpg
+  desc:
+    fr: "Éditeur et visionneuse de présentations à lancer en local, avec vues étudiant et télécommande."
+    en: "Locally hosted slide editor and viewer, with student and remote views."
+  tags: [Présentations, JavaScript]
+  repo: https://github.com/lachand/PresentaForge
+  demo: https://valentin.lachand.net/OutilsEnseignementInformatique/slides/
+- id: ev-charger
+  name: EV_charger
+  kind: home
+  thumb: true
+  featured: true
+  desc:
+    fr: "Intégration Home Assistant pour bornes de recharge Tuya, en réseau local, sans cloud."
+    en: "Home Assistant integration for Tuya EV chargers over the local network, no cloud required."
+  tags: [Home Assistant, Python]
+  repo: https://github.com/lachand/EV_charger
+- id: solarbalance
+  name: ha-solarbalance
+  kind: home
+  thumb: true
+  featured: true
+  desc:
+    fr: "Gestion d'énergie domestique pour Home Assistant : production photovoltaïque, stockage et charges, selon un ou plusieurs objectifs."
+    en: "Home energy management for Home Assistant: photovoltaic production, storage and loads, driven by one or several goals."
+  tags: [Home Assistant, Python]
+  repo: https://github.com/lachand/ha-solarbalance
+- id: plum
+  name: plum_ecomax
+  kind: home
+  thumb: true
+  desc:
+    fr: "Intégration Home Assistant pour les régulateurs de chaudière Plum ecoMAX (RS485 ou Ethernet)."
+    en: "Home Assistant integration for Plum ecoMAX boiler controllers (RS485 or Ethernet)."
+  tags: [Home Assistant, Python]
+  repo: https://github.com/lachand/plum_ecomax
+- id: thermostat
+  name: tuya-pilot-thermostat
+  kind: home
+  thumb: true
+  desc:
+    fr: "Intégration Home Assistant pour thermostat Tuya en réseau local, sans cloud."
+    en: "Home Assistant integration for a Tuya thermostat over the local network, no cloud required."
+  tags: [Home Assistant, Python]
+  repo: https://github.com/lachand/tuya-pilot-thermostat
+- id: releve
+  name: Relevé
+  kind: home
+  thumb: true
+  desc:
+    fr: "Prévisions météo multi-modèles pour la France, application web sans serveur qui indique la provenance de chaque prévision."
+    en: "Multi-model weather forecasts for France, a serverless web app that states where each forecast comes from."
+  tags: [PWA, TypeScript, Android]
+  repo: https://github.com/lachand/releve-meteo
+  apk: https://github.com/lachand/releve-meteo/releases/download/apk-latest/releve-debug.apk

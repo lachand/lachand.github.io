@@ -1,0 +1,27 @@
+---
+layout: base
+section: research
+---
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+<section class="wrap hero hero-sm">
+  <span class="label eyebrow rise" style="--i:0">{{ t.thesis }}</span>
+  <h1 class="display-l rise" style="--i:1">{{ page.title }}</h1>
+</section>
+<section class="wrap sec">
+  <div class="cote-rule"><h2 class="display-m">{{ t.manuscript }}</h2></div>
+  <p class="lead">{{ t.manuscript_txt }}</p>
+  <div class="row" style="margin-top:16px">
+    <a class="btn primary" href="{{ '/documents/2020/Manuscrit_VL.pdf' | relative_url }}">{{ t.manuscript_dl }} {% include icons.html name="arrow" %}</a>
+    <a class="btn" href="https://theses.hal.science/tel-03125759">{{ t.hal }}</a>
+  </div>
+</section>
+<section class="wrap sec">
+  <div class="cote-rule"><h2 class="display-m">{{ t.defense }}</h2></div>
+  <p class="muted">{{ t.defense_txt }}</p>
+  <div class="video"><iframe src="https://player.vimeo.com/video/485939814" title="{{ t.defense }}" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+</section>
+<section class="wrap sec prose">
+  <div class="cote-rule"><h2 class="display-m">{{ t.abstract }}</h2></div>
+  {{ content }}
+</section>

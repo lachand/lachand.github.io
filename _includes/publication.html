@@ -1,0 +1,21 @@
+{%- assign p = include.p -%}
+{%- assign lang = include.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+<article class="card hover pub reveal" data-type="{{ p.type }}">
+  <div class="pub-head">
+    <span class="stamp {% if p.type == 'thesis' %}attn{% elsif p.type == 'journal' or p.type == 'intl' %}ok{% endif %}">
+      {%- if p.type == 'thesis' %}{% include icons.html name="attention" %}{% elsif p.type == 'journal' or p.type == 'intl' %}{% include icons.html name="ok" %}{% else %}{% include icons.html name="inactive" %}{% endif -%}
+      {{ t.types[p.type] }}
+    </span>
+    <span class="cote muted">{{ p.date[lang] }}</span>
+  </div>
+  <h3>{{ p.title }}</h3>
+  {%- if p.title_fr and lang == "fr" %}<p class="muted small" lang="fr" style="margin:0">{{ p.title_fr }}</p>{% endif %}
+  <p class="meta cote">{{ p.authors }}<br>{% if lang == "en" and p.venue_en %}{{ p.venue_en }}{% else %}{{ p.venue }}{% endif %}{% if p.pages %} · {% if p.type == 'thesis' %}{{ p.pages }} pages{% else %}{{ t.pages_abbr }} {{ p.pages }}{% endif %}{% endif %}</p>
+  <div class="row">
+    {%- if p.pdf %}<a class="btn sm" href="{% if p.pdf contains 'http' %}{{ p.pdf }}{% else %}{{ p.pdf | relative_url }}{% endif %}">{{ t.pdf }}</a>{% endif %}
+    {%- if p.hal %}<a class="btn sm" href="{{ p.hal }}">HAL</a>{% endif %}
+    {%- if p.doi %}<a class="btn sm" href="{{ p.doi }}">{{ t.doi }}</a>{% endif %}
+    {%- if p.page %}{% assign target = p.page %}{% if lang == "en" and p.page_en %}{% assign target = p.page_en %}{% endif %}<a class="btn sm" href="{{ target | relative_url }}">{% if p.type == 'thesis' %}{{ t.thesis_page }}{% else %}{{ t.page }}{% endif %} {% include icons.html name="arrow" %}</a>{% endif %}
+  </div>
+</article>

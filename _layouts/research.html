@@ -1,0 +1,30 @@
+---
+layout: base
+section: research
+---
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+<section class="wrap hero hero-sm">
+  <span class="label eyebrow rise" style="--i:0">{{ t.nav.research }}</span>
+  <h1 class="display-l rise" style="--i:1">{{ page.title }}</h1>
+  <p class="lead rise" style="--i:2">{{ t.research_lead }}</p>
+</section>
+<section class="wrap sec" id="publications" aria-labelledby="h-pub">
+  <div class="cote-rule"><h2 class="display-m" id="h-pub">{{ t.publications }}</h2></div>
+  <ul class="metrics metrics-sm" aria-label="Google Scholar">
+    <li class="card metric"><span class="label muted">{{ t.citations }}</span><span class="val"><span class="mesure-m">35</span></span></li>
+    <li class="card metric"><span class="label muted">{{ t.hindex }}</span><span class="val"><span class="mesure-m">4</span></span></li>
+    <li class="metric note"><span class="small muted">{{ t.scholar_note }}</span><a class="btn sm" href="https://scholar.google.fr/citations?user=m-WkuVgAAAAJ" rel="noopener">{{ t.scholar_open }} {% include icons.html name="arrow" %}</a></li>
+  </ul>
+  <div class="filters" role="group" aria-label="{{ t.filter_label }}" data-filter="type">
+    <button type="button" class="chip" data-value="all" aria-pressed="true">{{ t.all }}</button>
+    {%- for ty in t.types %}<button type="button" class="chip" data-value="{{ ty[0] }}" aria-pressed="false">{{ ty[1] }}</button>{% endfor %}
+  </div>
+  {%- assign years = site.data.publications | map: "year" | uniq %}
+  {%- for y in years %}
+  <h3 class="year cote reveal">{{ y }}</h3>
+  <div class="grid2 filterable">
+    {%- for p in site.data.publications %}{% if p.year == y %}{% include publication.html p=p lang=lang %}{% endif %}{% endfor %}
+  </div>
+  {%- endfor %}
+</section>

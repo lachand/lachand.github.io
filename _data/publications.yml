@@ -1,0 +1,81 @@
+# Source : profil Google Scholar (m-WkuVgAAAAJ), complété par HAL pour l'article EC-TEL 2022. Liens PDF et DOI : HAL et ACM.
+# type : journal | intl | national | poster | thesis
+- type: journal
+  year: 2023
+  date: {fr: "janvier 2023", en: "January 2023"}
+  authors: "Lachand-Pascal, V., Michel, C., Serna, A., Tabard, A."
+  title: "Challenges and Opportunities for Multi-Device Management in Classrooms"
+  venue: "ACM Transactions on Computer-Human Interaction 29 (6)"
+  pages: "1-27"
+  pdf: "https://hal.science/hal-03740825/document"
+  doi: "https://doi.org/10.1145/3519025"
+- type: intl
+  year: 2022
+  date: {fr: "septembre 2022", en: "September 2022"}
+  authors: "Karoui, A., Alvarez, L., Geoffre, T., Guin, N., Lefevre, M., Lachand-Pascal, V., Ramalho, M."
+  title: "Towards an Automated Adaptive Learning Web Platform Through Personalization of Language Learning Pathways"
+  venue: "European Conference on Technology Enhanced Learning (EC-TEL)"
+  hal: "https://hal.science/hal-04078672"
+  doi: "https://doi.org/10.1007/978-3-031-16290-9_35"
+- type: thesis
+  year: 2020
+  date: {fr: "novembre 2020", en: "November 2020"}
+  authors: "Lachand-Pascal, V."
+  title: "Activity-centered approach for the design and orchestration of digital classroom activities"
+  title_fr: "Approche centrée activité pour la conception et l'orchestration d'activités numériques en classe"
+  venue: "Université de Lyon"
+  pages: "230"
+  pdf: "https://theses.hal.science/tel-03125759/document"
+  page: "/these/"
+  page_en: "/en/thesis/"
+- type: journal
+  year: 2019
+  date: {fr: "juin 2019", en: "June 2019"}
+  authors: "Lachand, V., Michel, C., Tabard, A."
+  title: "Toccata: Supporting Classroom Orchestration with Activity Based Computing"
+  venue: "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT) 3 (2)"
+  pages: "article 53, 23"
+  pdf: "https://hal.science/hal-02136481/document"
+  doi: "https://doi.org/10.1145/3328924"
+  page: "/presentations/2019/ubicomp_2019"
+- type: poster
+  year: 2019
+  date: {fr: "2019", en: "2019"}
+  authors: "Lachand, V., Tabard, A., Michel, C."
+  title: "Toccata: A Multi-Device System for Activity Scripting and Classroom Orchestration"
+  venue: "International Society of the Learning Sciences (ISLS), CSCL 2019, démonstration"
+  venue_en: "International Society of the Learning Sciences (ISLS), CSCL 2019, demonstration"
+  pdf: "/documents/poster_cscl.pdf"
+- type: intl
+  year: 2018
+  date: {fr: "septembre 2018", en: "September 2018"}
+  authors: "Jalal, G., Lachand, V., Tabard, A., Michel, C."
+  title: "How teachers prepare for the unexpected: bright spots and breakdowns in enacting pedagogical plans in class"
+  venue: "European Conference on Technology Enhanced Learning (EC-TEL)"
+  pages: "59-73"
+  pdf: "https://hal.science/hal-01833057/document"
+  doi: "https://doi.org/10.1007/978-3-319-98572-5_5"
+- type: poster
+  year: 2018
+  date: {fr: "avril 2018", en: "April 2018"}
+  authors: "Lachand, V., Jalal, G., Michel, C., Tabard, A."
+  title: "Toccata: An Activity Centric Orchestration System for Education"
+  venue: "CHI Conference on Human Factors in Computing Systems, Extended Abstracts"
+  pdf: "https://hal.science/hal-01716466/document"
+  doi: "https://doi.org/10.1145/3170427.3188484"
+- type: poster
+  year: 2018
+  date: {fr: "avril 2018", en: "April 2018"}
+  authors: "Jalal, G., Lachand, V., Tabard, A., Michel, C."
+  title: "Design, Adjust and Reuse: How Teachers Script Pedagogical Activities"
+  venue: "CHI Conference on Human Factors in Computing Systems, Extended Abstracts"
+  pdf: "https://hal.science/hal-01716373/document"
+  doi: "https://doi.org/10.1145/3170427.3188483"
+- type: national
+  year: 2016
+  date: {fr: "octobre 2016", en: "October 2016"}
+  authors: "Lachand, V., Serna, A., Tabard, A., Marty, J.-C."
+  title: "De l'efficacité de visualisations indicielles ou symboliques pour la régulation d'activités collaboratives"
+  venue: "Actes de la 28e conférence francophone sur l'Interaction Homme-Machine (IHM)"
+  pdf: "https://hal.science/hal-01383911/document"
+  doi: "https://doi.org/10.1145/3004107.3004115"

@@ -1,0 +1,21 @@
+---
+layout: base
+section: projects
+---
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+<section class="wrap hero hero-sm">
+  <span class="label eyebrow rise" style="--i:0">{{ t.nav.projects }}</span>
+  <h1 class="display-l rise" style="--i:1">{{ page.title }}</h1>
+  <p class="lead rise" style="--i:2">{{ t.projects_lead }}</p>
+</section>
+<section class="wrap sec">
+  <div class="filters" role="group" aria-label="{{ t.filter_label }}" data-filter="kind">
+    <button type="button" class="chip" data-value="all" aria-pressed="true">{{ t.kinds.all }}</button>
+    {%- for k in t.kinds %}{% unless k[0] == "all" %}<button type="button" class="chip" data-value="{{ k[0] }}" aria-pressed="false">{{ k[1] }}</button>{% endunless %}{% endfor %}
+  </div>
+  <div class="grid2 grid3 filterable">
+    {%- for p in site.data.projects %}{% include project.html p=p lang=lang %}{% endfor %}
+  </div>
+  <p style="margin-top:24px"><a class="btn" href="https://github.com/lachand?tab=repositories">{{ t.more_repos }} {% include icons.html name="arrow" %}</a></p>
+</section>

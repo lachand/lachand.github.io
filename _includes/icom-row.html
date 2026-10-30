@@ -1,0 +1,13 @@
+{%- assign it = include.it -%}{%- assign lang = include.lang -%}{%- assign t = site.data.i18n[lang] -%}
+<li class="reveal">
+  <span class="yr cote">{{ it.sem }}</span>
+  <span>
+    {%- if it.url %}<a class="t" href="{{ it.url | relative_url }}">{{ it.title[lang] }}</a>{% else %}<span class="t">{{ it.title[lang] }}</span>{% endif %}
+    <span class="muted small" style="display:block">{{ it.formation[lang] }}</span>
+  </span>
+  <span class="vol" aria-label="{{ t.modes_label }}">
+    {%- if it.cm %}<span class="tag">{{ t.cm }}</span>{% endif %}
+    {%- if it.td %}<span class="tag">{{ t.td }}</span>{% endif %}
+    {%- if it.suivi %}<span class="tag">{{ t.suivi }}</span>{% endif %}
+  </span>
+</li>

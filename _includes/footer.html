@@ -1,0 +1,16 @@
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+<footer class="site-foot" id="contact">
+  <div class="wrap">
+    <div>
+      <span class="label muted">{{ t.contact }}</span><br>
+      <a class="cote" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+    </div>
+    <ul class="links">
+      {%- for l in site.data.links %}
+      <li><a href="{{ l.url }}" rel="me noopener" target="_blank">{{ l.label }}</a></li>
+      {%- endfor %}
+    </ul>
+    <div class="muted small">© {{ site.time | date: "%Y" }} {{ site.author.name }}<br>{{ t.footer_note }}</div>
+  </div>
+</footer>

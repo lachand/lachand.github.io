@@ -1,0 +1,7 @@
+{%- assign c = include.c -%}
+{%- assign lang = include.lang -%}
+<li class="reveal">
+  <span class="yr cote">{{ c.year }}</span>
+  <a class="t" href="{% if c.url contains 'http' %}{{ c.url }}{% else %}{{ c.url | relative_url }}{% endif %}">{{ c.title[lang] }}</a>
+  <span class="muted">{{ c.place[lang] }}</span>
+</li>

@@ -1,0 +1,28 @@
+---
+layout: base
+section: teaching
+---
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+<section class="wrap hero hero-sm">
+  <span class="label eyebrow rise" style="--i:0">{{ t.nav.teaching }}</span>
+  <h1 class="display-l rise" style="--i:1">{{ page.title }}</h1>
+  <p class="lead rise" style="--i:2">{{ t.teaching_lead }}</p>
+</section>
+<section class="wrap sec">
+  <div class="cote-rule"><h2 class="display-m">{{ t.icom_title }}</h2></div>
+  <p class="muted small" style="margin:0 0 8px"><b>{{ t.suivi }}</b> : {{ t.suivi_long }}.</p>
+  {%- for g in site.data.icom %}
+  <h3 class="level reveal">{{ g.level[lang] }}</h3>
+  <ul class="courses courses-vol">
+    {%- for it in g.items %}{% include icom-row.html it=it lang=lang %}{% endfor %}
+  </ul>
+  {%- endfor %}
+</section>
+<section class="wrap sec">
+  <div class="cote-rule"><h2 class="display-m">{{ t.archives }}</h2></div>
+  <ul class="courses">
+    {%- for c in site.data.courses %}{% include course.html c=c lang=lang %}{% endfor %}
+  </ul>
+  {%- if lang == "en" %}<p class="muted small" style="margin-top:16px">{{ t.course_note }}</p>{% endif %}
+</section>

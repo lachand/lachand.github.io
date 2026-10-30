@@ -1,0 +1,12 @@
+<svg class="thumb" viewBox="0 0 400 140" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+  <g transform="translate(112 72)">
+    <polygon class="ln" points="0,-48 45.6,-14.8 28.2,38.8 -28.2,38.8 -45.6,-14.8"/>
+    <polygon class="ln" points="0,-28 26.7,-8.7 16.5,22.7 -16.5,22.7 -26.7,-8.7"/>
+    <path class="gd" d="M0 0V-48M0 0L45.6 -14.8M0 0L28.2 38.8M0 0L-28.2 38.8M0 0L-45.6 -14.8"/>
+    <polygon class="band2" points="0,-40 30,-6 20,30 -14,24 -34,-12"/>
+  </g>
+  <rect class="ln fl" x="216" y="26" width="38" height="88" rx="3"/><rect class="ln fl" x="262" y="26" width="38" height="88" rx="3"/><rect class="ln fl" x="308" y="26" width="38" height="88" rx="3"/>
+  <rect class="ln" x="221" y="34" width="28" height="14" rx="2"/><rect class="ln" x="221" y="54" width="28" height="14" rx="2"/>
+  <rect class="ln" x="267" y="34" width="28" height="14" rx="2"/>
+  <rect class="ln acc" x="313" y="34" width="28" height="14" rx="2"/>
+</svg>

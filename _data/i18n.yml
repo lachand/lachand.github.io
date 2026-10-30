@@ -1,0 +1,172 @@
+fr:
+  locale: fr_FR
+  paths: {home: /, research: /recherche/, projects: /projets/, teaching: /enseignement/, talks: /interventions/}
+  skip: Aller au contenu
+  role: "Professeur agrégé · ICOM, Université Lumière Lyon 2"
+  nav_label: Navigation principale
+  nav: {home: Accueil, research: Recherche, projects: Projets, teaching: Enseignement, talks: Interventions}
+  tools: [{label: "Outils d'enseignement", url: "https://valentin.lachand.net/OutilsEnseignementInformatique/"}, {label: PresentaForge, url: "https://valentin.lachand.net/OutilsEnseignementInformatique/slides/"}]
+  theme_label: Thème d'affichage
+  theme: {light: Clair, dark: Sombre, contrast: Contraste fort}
+  lang_label: Langue
+  hero_lead: "Docteur en informatique. Je conçois des outils centrés sur l'activité pour orchestrer l'apprentissage numérique, en classe et hors de la classe."
+  see_publications: Consulter les publications
+  see_projects: Voir les projets
+  see_all_publications: Voir toutes les publications
+  see_all_projects: Voir tous les projets
+  see_all_teaching: Voir tous les enseignements
+  card_post: Poste
+  card_phd: Doctorat
+  card_lab: Laboratoire d'origine
+  card_post_v: "PRAG, ICOM"
+  card_phd_v: "2020, Université de Lyon"
+  card_lab_v: LIRIS
+  metrics: Chiffres clés
+  m_pub: Publications
+  m_thesis: Thèse
+  m_pages: pages
+  m_proj: Projets publics
+  m_prev: Postes antérieurs
+  career: Parcours
+  now: En poste
+  past: Passé
+  jobs:
+    - {title: Professeur agrégé, where: "ICOM, Université Lumière Lyon 2", current: true}
+    - {title: Ingénieur de recherche, where: LIRIS}
+    - {title: Enseignant de technologie, where: ""}
+    - {title: Doctorant, where: LIRIS}
+  research: Recherche
+  research_lead: "Les activités d'apprentissage dépassent les frontières des disciplines et se déroulent en classe, à la maison, en bibliothèque. Elles passent de plus en plus par le numérique, mais la plupart des outils restent centrés sur l'application, rangent les documents en silos et sont pensés pour un appareil et un contexte donnés. Ma recherche propose une approche centrée sur l'activité pour faciliter l'orchestration des activités d'apprentissage, dans la classe et au dehors."
+  publications: Publications
+  filter_label: Filtrer par type
+  all: Toutes
+  types: {journal: Revue, intl: Conférence internationale, national: Conférence nationale, poster: Poster ou démonstration, thesis: Thèse}
+  pdf: PDF
+  doi: DOI
+  page: Page associée
+  thesis_page: Résumé et soutenance
+  pages_abbr: p.
+  scholar_note: "Source : Google Scholar, consulté le 30/10/2026."
+  scholar_open: Ouvrir le profil Google Scholar
+  citations: Citations
+  hindex: Indice h
+  projects: Projets
+  projects_lead: "Projets de recherche, d'enseignement et d'automatisation domestique, tirés de mes dépôts publics sur GitHub."
+  kinds: {all: Tous, research: Recherche, teaching: Enseignement, home: Maison connectée}
+  code: Code
+  demo: Démo
+  apk: Télécharger l'APK
+  preview: Aperçu
+  more_repos: Voir tous les dépôts sur GitHub
+  teaching: Enseignement
+  teaching_lead: "Mon service d'enseignement à l'ICOM, par niveau, puis les enseignements antérieurs."
+  icom_title: "ICOM, Université Lumière Lyon 2"
+  archives: Enseignements antérieurs
+  cm: CM
+  td: TD
+  suivi: Suivi
+  suivi_long: accompagnement de projets et de stages
+  modes_label: Modalités
+  talks: Interventions
+  talks_lead: "Conférences, présentations et affiches."
+  talks_groups: {talks: Conférences et présentations, posters: Affiches et démonstrations}
+  thesis: Thèse
+  manuscript: Manuscrit
+  manuscript_txt: "Le manuscrit est disponible en français."
+  manuscript_dl: Télécharger le manuscrit
+  hal: Voir sur HAL
+  defense: Soutenance
+  defense_txt: "Enregistrement de la soutenance de thèse."
+  abstract: Résumé
+  contact: Contact
+  footer_note: "Conçu avec le système de design Signature."
+  not_found: Page introuvable
+  not_found_txt: "Cette adresse n'existe pas ou a changé. Revenir à l'accueil, puis choisir une rubrique."
+  back_home: Revenir à l'accueil
+  course_note: Cette page de cours est en français.
+en:
+  locale: en_GB
+  paths: {home: /en/, research: /en/research/, projects: /en/projects/, teaching: /en/teaching/, talks: /en/talks/}
+  skip: Skip to content
+  role: "Associate teacher (agrégé) · ICOM, Université Lumière Lyon 2"
+  nav_label: Main navigation
+  nav: {home: Home, research: Research, projects: Projects, teaching: Teaching, talks: Talks}
+  tools: [{label: "Teaching tools", url: "https://valentin.lachand.net/OutilsEnseignementInformatique/"}, {label: PresentaForge, url: "https://valentin.lachand.net/OutilsEnseignementInformatique/slides/"}]
+  theme_label: Display theme
+  theme: {light: Light, dark: Dark, contrast: High contrast}
+  lang_label: Language
+  hero_lead: "PhD in computer science. I design activity-centred tools to orchestrate digital learning, inside and outside the classroom."
+  see_publications: Read the publications
+  see_projects: See the projects
+  see_all_publications: See all publications
+  see_all_projects: See all projects
+  see_all_teaching: See all courses
+  card_post: Position
+  card_phd: PhD
+  card_lab: Home laboratory
+  card_post_v: "PRAG, ICOM"
+  card_phd_v: "2020, Université de Lyon"
+  card_lab_v: LIRIS
+  metrics: Key figures
+  m_pub: Publications
+  m_thesis: Thesis
+  m_pages: pages
+  m_proj: Public projects
+  m_prev: Previous positions
+  career: Career
+  now: Current
+  past: Past
+  jobs:
+    - {title: Associate teacher (agrégé), where: "ICOM, Université Lumière Lyon 2", current: true}
+    - {title: Research engineer, where: LIRIS}
+    - {title: Technology teacher, where: ""}
+    - {title: PhD student, where: LIRIS}
+  research: Research
+  research_lead: "Learning activities increasingly cross disciplinary boundaries and unfold in many places: the classroom, the home, libraries. They are also increasingly digitally mediated. However, most tools are application-centric, structure documents and resources in silos, and are designed for a given device and context of use. My research proposes an activity-centric approach to ease the orchestration of learning activities, inside and outside the classroom."
+  publications: Publications
+  filter_label: Filter by type
+  all: All
+  types: {journal: Journal, intl: International conference, national: National conference, poster: Poster or demo, thesis: PhD thesis}
+  pdf: PDF
+  doi: DOI
+  page: Related page
+  thesis_page: Abstract and defence
+  pages_abbr: pp.
+  scholar_note: "Source: Google Scholar, checked on 30/10/2026."
+  scholar_open: Open the Google Scholar profile
+  citations: Citations
+  hindex: h-index
+  projects: Projects
+  projects_lead: "Research, teaching and home automation projects, taken from my public GitHub repositories."
+  kinds: {all: All, research: Research, teaching: Teaching, home: Smart home}
+  code: Code
+  demo: Demo
+  apk: Download the APK
+  preview: Preview
+  more_repos: See all repositories on GitHub
+  teaching: Teaching
+  teaching_lead: "My teaching load at ICOM, by level, followed by earlier courses."
+  icom_title: "ICOM, Université Lumière Lyon 2"
+  archives: Earlier courses
+  cm: Lectures
+  td: Tutorials
+  suivi: Supervision
+  suivi_long: supervision of projects and internships
+  modes_label: Teaching formats
+  talks: Talks
+  talks_lead: "Conferences, presentations and posters."
+  talks_groups: {talks: Conferences and presentations, posters: Posters and demonstrations}
+  thesis: PhD thesis
+  manuscript: Manuscript
+  manuscript_txt: "The manuscript is available in French."
+  manuscript_dl: Download the manuscript
+  hal: See on HAL
+  defense: Defence
+  defense_txt: "Recording of the thesis defence (in French)."
+  abstract: Abstract
+  contact: Contact
+  footer_note: "Built with the Signature design system."
+  not_found: Page not found
+  not_found_txt: "This address does not exist or has moved. Go back to the home page, then pick a section."
+  back_home: Back to the home page
+  course_note: This course page is in French.

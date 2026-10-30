@@ -1,0 +1,10 @@
+<svg class="thumb" viewBox="0 0 400 140" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+  <rect class="ln fl" x="58" y="34" width="96" height="62" rx="3"/><path class="ln" d="M46 104h120"/>
+  <path class="ln prod" d="M72 86V66M86 86V54M100 86V72M114 86V48M128 86V60"/>
+  <rect class="ln fl" x="188" y="38" width="64" height="80" rx="4"/>
+  <circle class="ln" cx="220" cy="62" r="14"/><path class="ln cons" d="M220 62V52M220 62l8 5"/>
+  <path class="ln" d="M200 92h40M200 102h28"/>
+  <rect class="ln fl" x="284" y="28" width="38" height="88" rx="5"/>
+  <path class="ln stock" d="M292 100v-16M300 100V70M308 100V78M316 100V60"/>
+  <path class="ct" d="M58 14h264M58 10v8M322 10v8"/>
+</svg>

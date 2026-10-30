@@ -1,0 +1,20 @@
+- group: talks
+  year: 2019
+  title: {fr: "Toccata: Supporting Classroom Orchestration with Activity Based Computing", en: "Toccata: Supporting Classroom Orchestration with Activity Based Computing"}
+  place: {fr: "UbiComp 2019", en: "UbiComp 2019"}
+  url: /presentations/2019/ubicomp_2019
+- group: talks
+  year: 2019
+  title: {fr: "Numérique et éducation", en: "Digital technology and education (in French)"}
+  place: {fr: "Conférence sur la construction de l'école connectée, association Défis", en: "Conference on building the connected school, Défis association"}
+  url: /presentations/2019/defis_2019
+- group: posters
+  year: 2019
+  title: {fr: "Affiche de démonstration, CSCL 2019", en: "Demonstration poster, CSCL 2019"}
+  place: {fr: "PDF", en: "PDF"}
+  url: /documents/poster_cscl.pdf
+- group: posters
+  year: 2018
+  title: {fr: "Affiche Late Breaking Work, CHI 2018", en: "Late Breaking Work poster, CHI 2018"}
+  place: {fr: "PDF", en: "PDF"}
+  url: /documents/poster_chi.pdf

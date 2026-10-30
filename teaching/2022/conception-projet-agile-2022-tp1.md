@@ -27,7 +27,7 @@ Pour développer en Java durant le TP, vous pouvez choisir d'utiliser :
 
 ## Travail demandé
 
-L'archive [TP1.zip](https://valentin.lachand.net/teaching/2022/conception-projet-agile-2022/TP1.zip) contient les classes de base :
+L'archive [TP1.zip](/teaching/2022/conception-projet-agile-2022/TP1.zip) contient les classes de base :
 
 - App : la classe principale, qui gère la création de l'application
 - Field : une classe gérant le terrain de jeu

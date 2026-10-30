@@ -1,0 +1,11 @@
+<svg class="thumb" viewBox="0 0 400 140" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+  <path class="gd" d="M56 22v92h264M56 46h264M56 70h264M56 94h264"/>
+  <path class="band" d="M56 92 C 100 80, 140 40, 190 38 S 270 58, 320 30 L320 76 C 270 100, 240 92, 190 90 S 100 110, 56 100z"/>
+  <path class="ln dsh1" d="M56 96 C 100 86, 140 52, 190 50 S 270 66, 320 40"/>
+  <path class="ln dsh2" d="M56 90 C 100 78, 140 44, 190 56 S 270 76, 320 50"/>
+  <path class="ln dsh3" d="M56 102 C 100 96, 140 76, 190 78 S 270 88, 320 68"/>
+  <path class="ln acc w2" d="M56 98 C 100 88, 140 56, 190 62 S 270 72, 320 46"/>
+  <text class="tx" x="326" y="50">AROME</text>
+  <path class="ct" d="M56 126h264M56 122v8M320 122v8"/>
+  <text class="tx" x="188" y="16" text-anchor="middle">7 modèles</text>
+</svg>

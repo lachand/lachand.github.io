@@ -1,0 +1,29 @@
+# Archives des enseignements avant 2022. Le service actuel à l'ICOM est dans icom.yml.
+- year: "2018-2019"
+  title: {fr: "Exploitation de données pour la conception d'outils numériques", en: "Using data to design digital tools"}
+  place: {fr: "INSA de Lyon, cours de gestion des connaissances", en: "INSA de Lyon, knowledge management course"}
+  url: /teaching/archives/2019/km-2019
+- year: "2018-2019"
+  title: {fr: "LaTeX et Overleaf", en: "LaTeX and Overleaf"}
+  place: {fr: "INSA de Lyon", en: "INSA de Lyon"}
+  url: /teaching/archives/2019/latex-2019
+- year: "2018-2019"
+  title: {fr: "XML et Web", en: "XML and the Web"}
+  place: {fr: "Master CCI, Université Lyon 1", en: "CCI Master, Université Lyon 1"}
+  url: /teaching/archives/2019/cci-xml-web-2019
+- year: "2018-2019"
+  title: {fr: "Conception des systèmes d'information et génie logiciel", en: "Information systems design and software engineering"}
+  place: {fr: "Master CCI, co-animé avec Alix Ducros", en: "CCI Master, co-taught with Alix Ducros"}
+  url: /teaching/archives/2018/cci-uml-2018
+- year: "2017-2018"
+  title: {fr: "XML et Web", en: "XML and the Web"}
+  place: {fr: "Sous la direction d'Aurélien Tabard", en: "Under the direction of Aurélien Tabard"}
+  url: https://tabard.fr/cours/2018/xmlweb
+- year: "2017-2018"
+  title: {fr: "M1if01, gestion de projet et génie logiciel", en: "M1if01, project management and software engineering"}
+  place: {fr: "Sous la direction d'Aurélien Tabard", en: "Under the direction of Aurélien Tabard"}
+  url: https://tabard.fr/cours/2017/mif01/
+- year: "2016-2017"
+  title: {fr: "XML et Web", en: "XML and the Web"}
+  place: {fr: "Sous la direction d'Aurélien Tabard", en: "Under the direction of Aurélien Tabard"}
+  url: https://tabard.fr/cours/2017/xmlweb

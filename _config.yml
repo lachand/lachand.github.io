@@ -1,22 +1,45 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+title:       Valentin Lachand-Pascal
+description: Docteur en informatique, professeur agrégé à l'ICOM (Université Lumière Lyon 2). Recherche sur l'orchestration d'activités d'apprentissage numériques.
+url:         https://valentin.lachand.net
+baseurl:     ''
+permalink:   pretty
+lang:        fr
 
-# Setup
-title:               Valentin Lachand-Pascal
-about:               PhD in computer science - PRAG at ICOM (Université Lyon 2)
-tagline:             ''
-description:         ''
-url:                 ''
-baseurl:             ''
-paginate:            5
-
-# About/contact
 author:
-  name:              Valentin Lachand-Pascal
-  url:               https://valentin.lachand.net
-  email:             valentin.lachand-pascal@univ-lyon2.fr
+  name:  Valentin Lachand-Pascal
+  email: valentin.lachand-pascal@univ-lyon2.fr
 
-# Custom vars
-version:             1.0.0
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+markdown:    kramdown
+highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - LICENSE.md
+  - node_modules
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: fr
+  - scope:
+      path: "en"
+    values:
+      lang: en
+  - scope:
+      path: "teaching"
+    values:
+      section: teaching
+      layout: default
+  - scope:
+      path: "presentations"
+    values:
+      section: talks
+      layout: default

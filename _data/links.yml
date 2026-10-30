@@ -1,0 +1,4 @@
+- {id: scholar, label: Google Scholar, url: "https://scholar.google.fr/citations?user=m-WkuVgAAAAJ"}
+- {id: github, label: GitHub, url: "https://github.com/lachand"}
+- {id: linkedin, label: LinkedIn, url: "https://www.linkedin.com/in/valentin-lachand-9520b4a8/"}
+- {id: researchgate, label: ResearchGate, url: "https://www.researchgate.net/profile/Valentin_Lachand"}

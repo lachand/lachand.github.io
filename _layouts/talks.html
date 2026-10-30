@@ -1,0 +1,21 @@
+---
+layout: base
+section: talks
+---
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+<section class="wrap hero hero-sm">
+  <span class="label eyebrow rise" style="--i:0">{{ t.nav.talks }}</span>
+  <h1 class="display-l rise" style="--i:1">{{ page.title }}</h1>
+  <p class="lead rise" style="--i:2">{{ t.talks_lead }}</p>
+</section>
+{%- for g in t.talks_groups %}
+<section class="wrap sec">
+  <div class="cote-rule"><h2 class="display-m">{{ g[1] }}</h2></div>
+  <ul class="courses">
+    {%- for x in site.data.talks %}{% if x.group == g[0] %}
+    <li class="reveal"><span class="yr cote">{{ x.year }}</span><a class="t" href="{% if x.url contains 'http' %}{{ x.url }}{% else %}{{ x.url | relative_url }}{% endif %}">{{ x.title[lang] }}</a><span class="muted">{{ x.place[lang] }}</span></li>
+    {%- endif %}{% endfor %}
+  </ul>
+</section>
+{%- endfor %}

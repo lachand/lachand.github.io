@@ -1,0 +1,35 @@
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="{{ t.paths.home | relative_url }}">{{ site.title }}</a>
+    <nav class="nav" aria-label="{{ t.nav_label }}">
+      {%- assign sections = "home|research|projects|teaching|talks" | split: "|" -%}
+      {%- for s in sections %}
+      <a href="{{ t.paths[s] | relative_url }}"{% if page.section == s %} aria-current="page"{% endif %}>{{ t.nav[s] }}</a>
+      {%- endfor %}
+      <span class="sep" aria-hidden="true"></span>
+      {%- for tool in t.tools %}
+      <a class="ext" href="{{ tool.url }}">{{ tool.label }}</a>
+      {%- endfor %}
+    </nav>
+    <div class="tools">
+      {%- if page.ref %}
+      <div class="lang" role="group" aria-label="{{ t.lang_label }}">
+        {%- assign langs = "fr|en" | split: "|" -%}
+        {%- for l in langs %}
+          {%- if l == lang %}<span aria-current="true" lang="{{ l }}">{{ l | upcase }}</span>
+          {%- else %}{% for p in site.pages %}{% if p.ref == page.ref and p.lang == l %}<a href="{{ p.url | relative_url }}" hreflang="{{ l }}" lang="{{ l }}">{{ l | upcase }}</a>{% endif %}{% endfor %}{% endif %}
+        {%- endfor %}
+      </div>
+      {%- endif %}
+      <div class="seg" role="group" aria-label="{{ t.theme_label }}">
+        {%- assign themes = "light|dark|contrast" | split: "|" -%}
+        {%- for th in themes %}
+        <button type="button" data-theme-set="{{ th }}" aria-pressed="false" aria-label="{{ t.theme[th] }}" title="{{ t.theme[th] }}">{% include icons.html name=th %}</button>
+        {%- endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="progress" aria-hidden="true"></div>
+</header>

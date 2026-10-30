@@ -1,0 +1,22 @@
+{%- assign p = include.p -%}
+{%- assign lang = include.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+<article class="card hover proj reveal" data-kind="{{ p.kind }}">
+  {%- if p.image %}
+  <div class="shot"><img src="{{ '/assets/img/projects/' | append: p.image | relative_url }}" alt="{{ t.preview }} : {{ p.name }}" loading="lazy" width="600" height="140"></div>
+  {%- elsif p.thumb %}
+  <div class="shot hatch" aria-hidden="true">{% include thumbs/{{ p.id }}.svg %}</div>
+  {%- else %}
+  <div class="shot hatch cote" aria-hidden="true">{{ p.name }}</div>
+  {%- endif %}
+  <div class="body">
+    <h3>{{ p.name }}</h3>
+    <p class="muted" style="margin:0">{{ p.desc[lang] }}</p>
+    <div class="tags">{% for tag in p.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</div>
+    <div class="row">
+      {%- if p.apk %}<a class="btn sm" href="{{ p.apk }}" download>{{ t.apk }}</a>{% endif %}
+      {%- if p.demo %}<a class="btn sm" href="{{ p.demo }}">{{ t.demo }}</a>{% endif %}
+      {%- if p.repo %}<a class="btn sm" href="{{ p.repo }}">{{ t.code }}</a>{% endif %}
+    </div>
+  </div>
+</article>

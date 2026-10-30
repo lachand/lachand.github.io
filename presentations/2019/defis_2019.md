@@ -15,7 +15,7 @@ Quels sont les enjeux liés à la position dominante des géants du numérique (
 
 ## Ressources
 ### Présentation (pdf)
-Slides utilisées pour la présentation [pdf à jour](https://valentin.lachand.net/documents/2019/numerique_enseignement_defis_2019.pdf)
+Slides utilisées pour la présentation [pdf à jour](/documents/2019/numerique_enseignement_defis_2019.pdf)
 
 ### Enregistrement de la présentation
 A venir

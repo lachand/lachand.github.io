@@ -1,31 +1,54 @@
-<head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign page_title = page.title | default: site.title -%}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.url == "/" or page.url == "/en/" %}{{ site.title }} · {{ t.role }}{% else %}{{ page_title }} · {{ site.title }}{% endif %}</title>
+<meta name="description" content="{{ page.description | default: t.hero_lead | strip_html | escape }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+{%- if page.ref %}
+{%- for p in site.pages %}{% if p.ref == page.ref and p.lang != lang %}
+<link rel="alternate" hreflang="{{ p.lang }}" href="{{ p.url | absolute_url }}">
+{%- endif %}{% endfor %}
+{%- endif %}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ page_title | escape }}">
+<meta property="og:description" content="{{ page.description | default: t.hero_lead | strip_html | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:locale" content="{{ t.locale }}">
+<meta property="og:image" content="{{ '/assets/img/portrait.jpg' | absolute_url }}">
+<meta name="color-scheme" content="light dark">
 
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
-    {% else %}
-      {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
-  </title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/poole.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/syntax.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/lanyon.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/custom.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
-
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-</head>
+<link rel="icon" href="{{ '/assets/img/favicon.ico' | relative_url }}">
+<link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
+<link rel="preload" href="{{ '/assets/fonts/inter-tight-var.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ '/assets/fonts/fraunces-var.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ '/assets/vendor/signature/tokens.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/vendor/signature/signature-fusion-overlay.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+<script>
+  /* Thème choisi, sinon préférence du système : posé avant le premier rendu. */
+  (function () {
+    try {
+      var t = localStorage.getItem('sg-theme');
+      if (!t) {
+        if (matchMedia('(prefers-contrast: more)').matches) t = 'contrast';
+        else if (matchMedia('(prefers-color-scheme: dark)').matches) t = 'dark';
+      }
+      if (t) document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  })();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.author.name }}",
+  "url": "{{ site.url }}",
+  "image": "{{ '/assets/img/portrait.jpg' | absolute_url }}",
+  "jobTitle": "Professeur agrégé",
+  "worksFor": {"@type": "CollegeOrUniversity", "name": "Université Lumière Lyon 2"},
+  "sameAs": [{% for l in site.data.links %}"{{ l.url }}"{% unless forloop.last %}, {% endunless %}{% endfor %}]
+}
+</script>

@@ -1,0 +1,86 @@
+# Service d'enseignement à l'ICOM (tableau de service transmis le 30/10/2026).
+# cm : cours magistral, td : travaux dirigés, suivi : suivi de projets et de stages. Les volumes horaires ne sont pas publiés.
+- level: {fr: "Master 1 Informatique", en: "Master 1 Computer Science"}
+  items:
+    - title: {fr: "Conception agile de projets informatiques", en: "Agile IT project design"}
+      formation: {fr: "Formation initiale", en: "Full-time programme"}
+      sem: S1
+      cm: true
+      td: true
+      url: /teaching/2022/conception-projet-agile-2022
+      home: true
+    - title: {fr: "Conception agile de projets informatiques", en: "Agile IT project design"}
+      formation: {fr: "Alternance", en: "Work-study programme"}
+      sem: S1
+      cm: true
+      td: true
+      url: /teaching/2022/conception-projet-agile-2022
+    - title: {fr: "Stage", en: "Internship"}
+      formation: {fr: "Formation initiale", en: "Full-time programme"}
+      sem: S2
+      suivi: true
+- level: {fr: "Licence 3 Informatique", en: "Bachelor 3 Computer Science"}
+  items:
+    - title: {fr: "Projet personnel professionnel", en: "Personal and professional project"}
+      formation: {fr: "Parcours Création numérique", en: "Digital Creation track"}
+      sem: S1
+      suivi: true
+    - title: {fr: "Projet personnel professionnel", en: "Personal and professional project"}
+      formation: {fr: "Parcours Sciences des données", en: "Data Science track"}
+      sem: S1
+      suivi: true
+    - title: {fr: "Stage", en: "Internship"}
+      formation: {fr: "Parcours Sciences des données", en: "Data Science track"}
+      sem: S2
+      suivi: true
+- level: {fr: "Licence 2 Informatique", en: "Bachelor 2 Computer Science"}
+  items:
+    - title: {fr: "Programmation web front-end", en: "Front-end web programming"}
+      formation: {fr: "Enseignement mutualisé", en: "Shared course"}
+      sem: S1
+      td: true
+      home: true
+    - title: {fr: "Algorithmique, structures de données et programmation", en: "Algorithms, data structures and programming"}
+      formation: {fr: "Enseignement mutualisé", en: "Shared course"}
+      sem: S1
+      td: true
+      home: true
+    - title: {fr: "Projet professionnel personnel", en: "Personal and professional project"}
+      formation: {fr: "Enseignement mutualisé", en: "Shared course"}
+      sem: S2
+      suivi: true
+    - title: {fr: "Projet de groupe en autonomie", en: "Autonomous group project"}
+      formation: {fr: "Enseignement mutualisé", en: "Shared course"}
+      sem: S2
+      suivi: true
+- level: {fr: "Licence 1 Informatique, mineure Économie et gestion", en: "Bachelor 1 Computer Science, Economics and Management minor"}
+  items:
+    - title: {fr: "Conception de sites web", en: "Website design"}
+      formation: {fr: "Enseignement mutualisé", en: "Shared course"}
+      sem: S1
+      td: true
+    - title: {fr: "Accompagnement", en: "Student support"}
+      formation: {fr: "Enseignement mutualisé", en: "Shared course"}
+      sem: S1
+      td: true
+      url: /teaching/2022/accompagnement-2022
+      home: true
+    - title: {fr: "Objets connectés", en: "Connected objects"}
+      formation: {fr: "Enseignement mutualisé", en: "Shared course"}
+      sem: S2
+      td: true
+      home: true
+    - title: {fr: "Accompagnement disciplinaire", en: "Subject-specific support"}
+      formation: {fr: "Enseignement mutualisé", en: "Shared course"}
+      sem: S2
+      suivi: true
+- level: {fr: "TIC ICOM", en: "TIC ICOM"}
+  items:
+    - title: {fr: "TIC", en: "TIC"}
+      formation: {fr: "Enseignement mutualisé", en: "Shared course"}
+      sem: S2
+      td: true
+    - title: {fr: "Suivi renforcé TIC", en: "Reinforced TIC support"}
+      formation: {fr: "Enseignement mutualisé", en: "Shared course"}
+      sem: S2
+      td: true

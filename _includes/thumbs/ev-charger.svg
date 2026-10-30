@@ -1,0 +1,14 @@
+<svg class="thumb" viewBox="0 0 400 140" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+  <line class="gd" x1="0" y1="124" x2="400" y2="124"/>
+  <rect class="ln fl" x="72" y="22" width="76" height="102" rx="4"/>
+  <rect class="ln" x="84" y="34" width="52" height="26" rx="2"/>
+  <text class="tx" x="110" y="51" text-anchor="middle">3,5 kW</text>
+  <circle class="ln ok" cx="110" cy="76" r="4"/>
+  <circle class="ln" cx="110" cy="98" r="10"/>
+  <path class="ln prod" d="M110 108 C 110 132, 196 136, 210 98"/>
+  <rect class="ln fl" x="200" y="74" width="22" height="30" rx="3" transform="rotate(12 211 89)"/>
+  <path class="ln" d="M236 112h-6v-16q0-10 9-12l22-6q7-14 22-14h24q14 0 20 12l8 14q8 2 8 10v12h-8"/>
+  <path class="ln" d="M270 112h50"/>
+  <circle class="ln fl" cx="258" cy="112" r="10"/><circle class="ln fl" cx="334" cy="112" r="10"/>
+  <path class="ct" d="M72 12h76M72 8v8M148 8v8"/>
+</svg>

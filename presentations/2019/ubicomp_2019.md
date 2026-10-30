@@ -7,7 +7,7 @@ permalink: /presentations/2019/ubicomp_2019
 You can ask your question during my presentation at Ubicomp 2019 with the following link: [live questions](https://app.sli.do/event/jgwdfzb1)
 
 ### Demonstration
-You can test Toccata at [ubicomp.toccata.education](ubicomp.toccata.education)
+You can test Toccata at [ubicomp.toccata.education](https://ubicomp.toccata.education)
 Our demonstration work with Firefox and Chrome/Chromium. It was not tested with Edge or Internet Explorer. Unexpected behaviour may happen with Safari due to memory restriction on this browser.
 
 If you have any question about the tool or the demonstration, feel free to contact me at **valentin\[at\]lachand\[dot\]fr**
@@ -17,7 +17,7 @@ We present Toccata, a system that facilitates the management of rich multi-devic
 
 ### [Paper [pdf]](https://hal.archives-ouvertes.fr/hal-02136481/document)
 <a href="https://hal.archives-ouvertes.fr/hal-02136481/document">
-  <img src="https://valentin.lachand.net/documents/2019/paper_ubicomp_thumbnail.png"/>
+  <img src="/documents/2019/paper_ubicomp_thumbnail.png"/>
  </a>
 
 ### [Presentation [pdf]](https://docs.google.com/presentation/d/1qmoVolMyzQ7etLfP6kaOxNvE5CQo0t-7Wo5Hdu90m_M/export/pdf)
