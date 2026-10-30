@@ -124,7 +124,18 @@ html[data-theme="contrast"] .spot { display: none; }
 .level { margin: 32px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--line); font: 600 18px/24px var(--font-ui); }
 .proj { padding: 0; overflow: hidden; display: flex; flex-direction: column; min-width: 0; }
 .proj .shot { height: 140px; display: grid; place-items: center; border-bottom: 1px solid var(--line-subtle); color: var(--ink-muted); overflow: hidden; }
-.proj .shot img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.proj .shot img { width: 100%; height: 100%; object-fit: cover; object-position: center 35%; }
+.proj .shot.logo { background: var(--surface); }
+.proj .shot.logo img { width: auto; max-width: 78%; height: auto; max-height: 38%; object-fit: contain; }
+.shot .t-dark { display: none; }
+html[data-theme="dark"] .shot .t-light { display: none; }
+html[data-theme="dark"] .shot .t-dark { display: block; }
+.thumb .lk-bg { fill: var(--surface); } .thumb .lk-ln { stroke: var(--consommation); stroke-width: 1.5; }
+.thumb .lk-neg2 rect { fill: url(#lk-h); stroke: var(--consommation); stroke-width: 1; }
+.thumb .lk-neg1 rect { fill: var(--consommation); fill-opacity: .35; stroke: var(--consommation); stroke-width: 1; }
+.thumb .lk-neu rect { fill: var(--surface-sunken); stroke: var(--line); stroke-width: 1; }
+.thumb .lk-pos1 rect { fill: var(--production); fill-opacity: .35; stroke: var(--production); stroke-width: 1; }
+.thumb .lk-pos2 rect { fill: var(--production); fill-opacity: .85; stroke: var(--production); stroke-width: 1; }
 .thumb { display: block; width: 100%; height: 100%; }
 .thumb .ln { fill: none; stroke: var(--line); stroke-width: 1.5; stroke-linejoin: round; stroke-linecap: round; }
 .thumb .ln.fl { fill: var(--surface); }

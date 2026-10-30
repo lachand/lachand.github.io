@@ -1,0 +1,16 @@
+<svg class="thumb" viewBox="0 0 400 140" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+  <g transform="translate(-22 0)"><rect class="ln fl" x="56" y="22" width="96" height="96" rx="6"/>
+  <circle class="ln" cx="74" cy="44" r="5"/><path class="ln" d="M88 44h48"/>
+  <rect class="ln acc fl" x="66" y="58" width="76" height="20" rx="3"/><circle class="ln acc" cx="74" cy="68" r="5"/><path class="ln acc" d="M88 68h40"/>
+  <circle class="ln" cx="74" cy="94" r="5"/><path class="ln" d="M88 94h36"/>
+  <path class="fx prod" d="M152 70 C 190 70, 190 38, 236 38" marker-end="url(#tc-a)"/>
+  <path class="fx prod" d="M152 70 H236" marker-end="url(#tc-a)"/>
+  <path class="fx prod" d="M152 70 C 190 70, 190 102, 236 102" marker-end="url(#tc-a)"/>
+  <defs><marker id="tc-a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1l8 4-8 4z" class="mk prod"/></marker></defs>
+  <rect class="ln fl" x="238" y="24" width="60" height="28" rx="3"/><path class="ln" d="M248 38h24"/>
+  <rect class="ln fl" x="238" y="56" width="60" height="28" rx="3"/><path class="ln" d="M248 70h32"/>
+  <rect class="ln fl" x="238" y="88" width="60" height="28" rx="3"/><path class="ln" d="M248 102h16"/>
+    <path class="ct" d="M238 126h60M238 122v8M298 122v8"/></g>
+  <path class="ln" d="M300 40a14 14 0 0 1 20 0M305 46a8 8 0 0 1 10 0"/><circle class="ln" cx="310" cy="52" r="1.5"/><path class="ln cons" d="M298 34L324 58"/>
+  <text class="tx" x="311" y="78" text-anchor="middle">sans réseau</text>
+</svg>

@@ -3,8 +3,8 @@
 - id: toccata
   name: Toccata
   kind: research
+  thumb: true
   featured: true
-  image: toccata.png
   desc:
     fr: "Système d'orchestration de classe fondé sur l'Activity Based Computing, développé pendant la thèse."
     en: "Classroom orchestration system based on Activity Based Computing, developed during the PhD."
@@ -14,7 +14,7 @@
 - id: likertscales
   name: LikertScales
   kind: research
-  image: likertscale.jpg
+  thumb: true
   desc:
     fr: "Diagramme à barres empilées divergentes pour les échelles de Likert, avec export SVG, version noir et blanc pour l'impression et nombre de points variable."
     en: "Diverging stacked bar chart for Likert scales, with SVG export, a print-ready black and white mode and a variable number of points."
@@ -42,7 +42,7 @@
 - id: presentaforge
   name: PresentaForge
   kind: teaching
-  image: presentaforge.jpg
+  logo: presentaforge
   desc:
     fr: "Éditeur et visionneuse de présentations à lancer en local, avec vues étudiant et télécommande."
     en: "Locally hosted slide editor and viewer, with student and remote views."
@@ -52,7 +52,7 @@
 - id: ev-charger
   name: EV_charger
   kind: home
-  thumb: true
+  shot: ev-charger
   featured: true
   desc:
     fr: "Intégration Home Assistant pour bornes de recharge Tuya, en réseau local, sans cloud."
@@ -62,7 +62,7 @@
 - id: solarbalance
   name: ha-solarbalance
   kind: home
-  thumb: true
+  shot: solarbalance
   featured: true
   desc:
     fr: "Gestion d'énergie domestique pour Home Assistant : production photovoltaïque, stockage et charges, selon un ou plusieurs objectifs."
@@ -72,7 +72,7 @@
 - id: plum
   name: plum_ecomax
   kind: home
-  thumb: true
+  shot: plum-ecomax
   desc:
     fr: "Intégration Home Assistant pour les régulateurs de chaudière Plum ecoMAX (RS485 ou Ethernet)."
     en: "Home Assistant integration for Plum ecoMAX boiler controllers (RS485 or Ethernet)."
@@ -81,7 +81,7 @@
 - id: thermostat
   name: tuya-pilot-thermostat
   kind: home
-  thumb: true
+  shot: tuya-pilot-thermostat
   desc:
     fr: "Intégration Home Assistant pour thermostat Tuya en réseau local, sans cloud."
     en: "Home Assistant integration for a Tuya thermostat over the local network, no cloud required."

@@ -1,0 +1,14 @@
+<svg class="thumb" viewBox="0 0 400 140" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+  <defs>
+    <pattern id="lk-h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="lk-bg"/><line x1="0" y1="0" x2="0" y2="6" class="lk-ln"/></pattern>
+  </defs>
+  <path class="gd" d="M70 116H340"/>
+  <g class="lk-neg2"><rect x="120" y="22" width="28" height="16"/><rect x="144" y="44" width="22" height="16"/><rect x="96" y="66" width="38" height="16"/><rect x="132" y="88" width="26" height="16"/></g>
+  <g class="lk-neg1"><rect x="148" y="22" width="32" height="16"/><rect x="166" y="44" width="20" height="16"/><rect x="134" y="66" width="42" height="16"/><rect x="158" y="88" width="26" height="16"/></g>
+  <g class="lk-neu"><rect x="180" y="22" width="40" height="16"/><rect x="186" y="44" width="28" height="16"/><rect x="176" y="66" width="48" height="16"/><rect x="184" y="88" width="32" height="16"/></g>
+  <g class="lk-pos1"><rect x="220" y="22" width="36" height="16"/><rect x="214" y="44" width="44" height="16"/><rect x="224" y="66" width="26" height="16"/><rect x="216" y="88" width="46" height="16"/></g>
+  <g class="lk-pos2"><rect x="256" y="22" width="48" height="16"/><rect x="258" y="44" width="64" height="16"/><rect x="250" y="66" width="26" height="16"/><rect x="262" y="88" width="48" height="16"/></g>
+  <path class="ct" d="M200 14V112"/>
+  <text class="tx" x="62" y="34">Q1</text><text class="tx" x="62" y="56">Q2</text><text class="tx" x="62" y="78">Q3</text><text class="tx" x="62" y="100">Q4</text>
+  <path class="ct" d="M70 126H340M70 122v8M200 122v8M340 122v8"/>
+</svg>

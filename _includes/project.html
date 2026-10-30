@@ -2,8 +2,16 @@
 {%- assign lang = include.lang -%}
 {%- assign t = site.data.i18n[lang] -%}
 <article class="card hover proj reveal" data-kind="{{ p.kind }}">
-  {%- if p.image %}
-  <div class="shot"><img src="{{ '/assets/img/projects/' | append: p.image | relative_url }}" alt="{{ t.preview }} : {{ p.name }}" loading="lazy" width="600" height="140"></div>
+  {%- if p.shot %}
+  <div class="shot photo">
+    <img class="t-light" src="{{ '/assets/img/projects/' | append: p.shot | append: '-light.webp' | relative_url }}" alt="{{ t.preview }} : {{ p.name }}" loading="lazy" width="900" height="380">
+    <img class="t-dark" src="{{ '/assets/img/projects/' | append: p.shot | append: '-dark.webp' | relative_url }}" alt="" loading="lazy" width="900" height="380">
+  </div>
+  {%- elsif p.logo %}
+  <div class="shot logo">
+    <img class="t-light" src="{{ '/assets/img/projects/' | append: p.logo | append: '-light.svg' | relative_url }}" alt="{{ p.name }}" loading="lazy" width="224" height="34">
+    <img class="t-dark" src="{{ '/assets/img/projects/' | append: p.logo | append: '-dark.svg' | relative_url }}" alt="" loading="lazy" width="224" height="34">
+  </div>
   {%- elsif p.thumb %}
   <div class="shot hatch" aria-hidden="true">{% include thumbs/{{ p.id }}.svg %}</div>
   {%- else %}
