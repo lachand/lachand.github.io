@@ -22,7 +22,7 @@
     <p class="muted" style="margin:0">{{ p.desc[lang] }}</p>
     <div class="tags">{% for tag in p.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</div>
     <div class="row">
-      {%- if p.apk %}<a class="btn sm" href="{{ p.apk }}" download>{{ t.apk }}</a>{% endif %}
+      {%- if p.apk %}<a class="btn sm" href="{{ p.apk }}" download data-apk>{{ t.apk }}</a><span class="apk-meta muted" data-apk-meta data-tpl="{{ t.apk_meta }}" data-tpl-date="{{ t.apk_meta_date }}" data-lang="{{ lang }}" hidden></span>{% endif %}
       {%- if p.demo %}<a class="btn sm" href="{{ p.demo }}">{{ t.demo }}</a>{% endif %}
       {%- if p.repo %}<a class="btn sm" href="{{ p.repo }}">{{ t.code }}</a>{% endif %}
     </div>

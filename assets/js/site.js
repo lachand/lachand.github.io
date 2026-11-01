@@ -64,6 +64,32 @@
     });
   });
 
+  /* APK : version (commit) et date de mise à jour lues sur la release GitHub ; le bouton reste utilisable si l'appel échoue */
+  var apk = document.querySelector('[data-apk]'), meta = document.querySelector('[data-apk-meta]');
+  var ref = apk && /github\.com\/([^/]+\/[^/]+)\/releases\/download\/([^/]+)\//.exec(apk.href);
+  if (ref && meta && window.fetch) {
+    var show = function (r) {
+      var a = (r.assets || []).filter(function (x) { return /\.apk$/i.test(x.name); })[0];
+      var when = new Date((a && a.updated_at) || r.published_at);
+      var c = /commit\s*:\s*([0-9a-f]{7,40})/i.exec(r.body || '');
+      if (isNaN(when)) return;
+      var d = when.toLocaleDateString(meta.dataset.lang, { day: 'numeric', month: 'long', year: 'numeric' });
+      meta.textContent = (c ? meta.dataset.tpl.replace('{v}', c[1].slice(0, 7)) : meta.dataset.tplDate).replace('{d}', d);
+      meta.hidden = false;
+    };
+    var key = 'sg-apk-' + ref[1] + '-' + ref[2], cached = null;
+    try { cached = JSON.parse(sessionStorage.getItem(key)); } catch (e) {}
+    if (cached) show(cached);
+    else fetch('https://api.github.com/repos/' + ref[1] + '/releases/tags/' + ref[2], { headers: { Accept: 'application/vnd.github+json' } })
+      .then(function (res) { return res.ok ? res.json() : Promise.reject(); })
+      .then(function (r) {
+        var slim = { published_at: r.published_at, body: r.body, assets: (r.assets || []).map(function (x) { return { name: x.name, updated_at: x.updated_at }; }) };
+        try { sessionStorage.setItem(key, JSON.stringify(slim)); } catch (e) {}
+        show(slim);
+      })
+      .catch(function () {});
+  }
+
   if (reduce || !('IntersectionObserver' in window)) return;
 
   /* Compteurs : décélèrent jusqu'à la valeur, sans dépassement */

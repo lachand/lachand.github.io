@@ -56,6 +56,8 @@ fr:
   code: Code
   demo: Démo
   apk: Télécharger l'APK
+  apk_meta: "Version {v} · mise à jour le {d}"
+  apk_meta_date: "Mise à jour le {d}"
   preview: Aperçu
   more_repos: Voir tous les dépôts sur GitHub
   teaching: Enseignement
@@ -142,6 +144,8 @@ en:
   code: Code
   demo: Demo
   apk: Download the APK
+  apk_meta: "Version {v} · updated {d}"
+  apk_meta_date: "Updated {d}"
   preview: Preview
   more_repos: See all repositories on GitHub
   teaching: Teaching

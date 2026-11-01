@@ -158,7 +158,8 @@ html[data-theme="dark"] .shot .t-dark { display: block; }
 .thumb .dsh1 { stroke-dasharray: 6 4; } .thumb .dsh2 { stroke-dasharray: 2 4; } .thumb .dsh3 { stroke-dasharray: 10 3 2 3; } .thumb .w2 { stroke-width: 2.5; }
 .proj .body { padding: 20px 24px 24px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
 .proj .tags { display: flex; flex-wrap: wrap; gap: 6px; }
-.proj .row { margin-top: auto; }
+.proj .row { margin-top: auto; align-items: center; }
+.apk-meta { font-size: 13px; }
 [hidden] { display: none !important; }
 
 /* Enseignement, interventions */
